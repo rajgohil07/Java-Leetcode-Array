@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added program to Concatenation of Array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/RunningSumOf1DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added program to Running Sum of 1d Array.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/RunningSumOf1DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/RunningSumOf1DArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,11 +102,19 @@
       <option name="project" value="LOCAL" />
       <updated>1677686440199</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added program to Running Sum of 1d Array.">
+      <created>1677691702889</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677691702889</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Added program to Running Sum of 1d Array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added program to Running Sum of 1d Array." />
   </component>
 </project>

@@ -30,11 +30,11 @@ public class RunningSumOf1DArray {
         int[] ans = new int[nums.length];
 
         for (int index = 0; index < ans.length; index++) {
-            int sum = 0;
-            for (int childIndex = 0; childIndex <= index; childIndex++) {
-                sum += nums[childIndex];
+            if (index > 0) {
+                ans[index] = nums[index] + ans[index - 1];
+            } else {
+                ans[index] = nums[index];
             }
-            ans[index] = sum;
         }
 
         System.out.println("ans = " + Arrays.toString(ans));
