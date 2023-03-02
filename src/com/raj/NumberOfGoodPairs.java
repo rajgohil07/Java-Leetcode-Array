@@ -25,10 +25,11 @@ package com.raj;
 public class NumberOfGoodPairs {
     public static void main(String[] args) {
         int[] nums = new int[]{1, 2, 3, 1, 1, 3};
+        int length = nums.length;
         int answer = 0;
 
-        for (int index = 0; index < nums.length; index++) {
-            for (int childIndex = index + 1; childIndex < nums.length; childIndex++) {
+        for (int index = 0; index < length; index++) {
+            for (int childIndex = index + 1; childIndex < length; childIndex++) {
                 if (nums[index] == nums[childIndex]) {
                     answer += 1;
                 }
