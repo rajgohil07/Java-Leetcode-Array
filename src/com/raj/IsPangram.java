@@ -22,8 +22,7 @@ import java.util.Arrays;
 
 public class IsPangram {
     public static void main(String[] args) {
-        ArrayList<Character> a = new ArrayList<Character>();
-        a.addAll(Arrays.asList('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
+        ArrayList<Character> a = new ArrayList<>(Arrays.asList('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n',
                 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'));
         String str = "thequickbrownfoxjumpsoverthelazydog";
 
@@ -34,10 +33,6 @@ public class IsPangram {
             }
         }
 
-        if (a.size() == 0) {
-            System.out.println(true);
-        } else {
-            System.out.println(false);
-        }
+        System.out.println(a.size() == 0 ? "Yes, it is a pangram string" : "No, it is not a pangram string");
     }
 }

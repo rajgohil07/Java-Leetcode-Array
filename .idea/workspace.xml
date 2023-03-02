@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Optimized the code by using the enhanced for loop for How Many Numbers Are Smaller Than the Current Number.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/IsPangram.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to Check if the Sentence Is Pangram">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/IsPangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/IsPangram.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677783293108</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Implemented the program to Check if the Sentence Is Pangram">
+      <created>1677786744628</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677786744628</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -176,15 +182,15 @@
     <MESSAGE value="Have added the program: Number of Good Pairs." />
     <MESSAGE value="Complement the program for How Many Numbers Are Smaller Than the Current Number." />
     <MESSAGE value="Optimized the code by using the enhanced for loop for How Many Numbers Are Smaller Than the Current Number." />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized the code by using the enhanced for loop for How Many Numbers Are Smaller Than the Current Number." />
+    <MESSAGE value="Implemented the program to Check if the Sentence Is Pangram" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the program to Check if the Sentence Is Pangram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/raj/IsPangram.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
