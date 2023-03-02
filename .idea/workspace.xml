@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the program to Shuffle the Array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/KidsWithGreatestNumberOfCandies.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the program: Kids With the Greatest Number of Candies.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/NumberOfGoodPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,20 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KidsWithGreatestNumberOfCandies">
-    <configuration name="BuildArrayFromPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.BuildArrayFromPermutation" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NumberOfGoodPairs">
     <configuration name="ConcatenationOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.ConcatenationOfArray" />
       <module name="ArrayLeetCodeQuestions" />
@@ -68,6 +55,19 @@
     </configuration>
     <configuration name="KidsWithGreatestNumberOfCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.KidsWithGreatestNumberOfCandies" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.NumberOfGoodPairs" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NumberOfGoodPairs" />
         <item itemvalue="Application.KidsWithGreatestNumberOfCandies" />
         <item itemvalue="Application.ShuffleTheArray" />
         <item itemvalue="Application.RunningSumOf1DArray" />
         <item itemvalue="Application.ConcatenationOfArray" />
-        <item itemvalue="Application.BuildArrayFromPermutation" />
       </list>
     </recent_temporary>
   </component>
