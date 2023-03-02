@@ -37,8 +37,8 @@ public class NumbersAreSmallerThanCurrentNumber {
 
         for (int i = 0; i < l; i++) {
             int c = 0;
-            for (int j = 0; j < l; j++) {
-                if (nums[i] > nums[j]) {
+            for (int j : nums) {
+                if (nums[i] > j) {
                     c += 1;
                 }
             }
