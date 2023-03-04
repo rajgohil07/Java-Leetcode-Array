@@ -48,8 +48,8 @@ public class CountItemsMatchingRule {
             checkIndex = 2;
         }
 
-        for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).get(checkIndex).equals(ruleValue)) {
+        for (List<String> childList:list) {
+            if (childList.get(checkIndex).equals(ruleValue)) {
                 ans += 1;
             }
         }
