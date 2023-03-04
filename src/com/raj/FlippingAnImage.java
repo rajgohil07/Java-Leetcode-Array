@@ -48,7 +48,7 @@ public class FlippingAnImage {
             int start = 0;
             int end = length - 1;
 
-            while (start < end) {
+            while (start <= end) {
                 int t = childArr[start] == 0 ? 1 : 0;
                 childArr[start] = childArr[end] == 0 ? 1 : 0;
                 childArr[end] = t;
