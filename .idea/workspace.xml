@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="use of enhanced for loop to Count Items Matching a Rule.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindHighestAltitude.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to Find the Highest Altitude">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/FlippingAnImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindHighestAltitude">
+  <component name="RunManager" selected="Application.FlippingAnImage">
     <configuration name="CountItemsMatchingRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.CountItemsMatchingRule" />
       <module name="ArrayLeetCodeQuestions" />
@@ -65,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsPangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.IsPangram" />
+    <configuration name="FlippingAnImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.FlippingAnImage" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfGoodPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.NumberOfGoodPairs" />
+    <configuration name="IsPangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.IsPangram" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -106,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FlippingAnImage" />
         <item itemvalue="Application.FindHighestAltitude" />
         <item itemvalue="Application.CountItemsMatchingRule" />
         <item itemvalue="Application.IsPangram" />
         <item itemvalue="Application.NumbersAreSmallerThanCurrentNumber" />
-        <item itemvalue="Application.NumberOfGoodPairs" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +194,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677916153560</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="use of enhanced for loop to Count Items Matching a Rule.">
+      <created>1677924073906</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1677924073906</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Program to Find the Highest Altitude">
+      <created>1677924112797</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1677924112797</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,7 +222,8 @@
     <MESSAGE value="Implemented the program to Count Items Matching a Rule." />
     <MESSAGE value="used of equals method to Count Items Matching a Rule." />
     <MESSAGE value="use of enhanced for loop to Count Items Matching a Rule." />
-    <option name="LAST_COMMIT_MESSAGE" value="use of enhanced for loop to Count Items Matching a Rule." />
+    <MESSAGE value="Program to Find the Highest Altitude" />
+    <option name="LAST_COMMIT_MESSAGE" value="Program to Find the Highest Altitude" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
