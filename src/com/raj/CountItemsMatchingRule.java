@@ -42,14 +42,14 @@ public class CountItemsMatchingRule {
         int ans = 0;
 
         int checkIndex = 0;
-        if (ruleKey == "color") {
+        if (ruleKey.equals("color")) {
             checkIndex = 1;
-        } else if (ruleKey == "name") {
+        } else if (ruleKey.equals("name")) {
             checkIndex = 2;
         }
 
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i).get(checkIndex) == ruleValue) {
+            if (list.get(i).get(checkIndex).equals(ruleValue)) {
                 ans += 1;
             }
         }
