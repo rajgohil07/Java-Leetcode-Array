@@ -44,22 +44,21 @@ public class FlippingAnImage {
 
         int length = image.length;
 
-        for (int i = 0; i < length; i++) {
+        for (int[] childArr : image) {
             int start = 0;
             int end = length - 1;
-            int[] currentArr = image[i];
 
             while (start < end) {
-                int t = currentArr[start] == 0 ? 1 : 0;
-                currentArr[start] = currentArr[end] == 0 ? 1 : 0;
-                currentArr[end] = t;
+                int t = childArr[start] == 0 ? 1 : 0;
+                childArr[start] = childArr[end] == 0 ? 1 : 0;
+                childArr[end] = t;
                 start++;
                 end--;
             }
         }
 
-        for (int i = 0; i < length; i++) {
-            System.out.println(Arrays.toString(image[i]));
+        for (int[] i : image) {
+            System.out.println(Arrays.toString(i));
         }
     }
 }
