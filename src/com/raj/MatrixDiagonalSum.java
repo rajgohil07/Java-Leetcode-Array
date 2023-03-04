@@ -39,12 +39,9 @@ public class MatrixDiagonalSum {
         int sum = 0;
 
         for (int i = 0; i < l; i++) {
-            for (int j = 0; j < l; j++) {
-                if (i == j) {
-                    sum += mat[i][j];
-                } else if (l - j - 1 == i) {
-                    sum += mat[i][j];
-                }
+            sum += mat[i][i];
+            if (l - 1 - i != i) {
+                sum += mat[i][l - i - 1];
             }
         }
 

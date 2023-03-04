@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Fix incorrect answer for odd matrix for flipping an image  program.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/MatrixDiagonalSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Removed the one extra condition for matrix diagonal sum.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/MatrixDiagonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/MatrixDiagonalSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +214,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677931444002</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Implemented the program for the matrix diagonal sum.">
+      <created>1677966298919</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1677966298919</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Removed the one extra condition for matrix diagonal sum.">
+      <created>1677966381811</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1677966381811</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +244,9 @@
     <MESSAGE value="use of enhanced for loop to Count Items Matching a Rule." />
     <MESSAGE value="Program to Find the Highest Altitude" />
     <MESSAGE value="Fix incorrect answer for odd matrix for flipping an image  program." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix incorrect answer for odd matrix for flipping an image  program." />
+    <MESSAGE value="Implemented the program for the matrix diagonal sum." />
+    <MESSAGE value="Removed the one extra condition for matrix diagonal sum." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the one extra condition for matrix diagonal sum." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
