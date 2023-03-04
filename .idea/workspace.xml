@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to Check if the Sentence Is Pangram">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/IsPangram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/IsPangram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raj/CountItemsMatchingRule.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +38,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IsPangram">
+  <component name="RunManager" selected="Application.CountItemsMatchingRule">
+    <configuration name="CountItemsMatchingRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.CountItemsMatchingRule" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IsPangram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.IsPangram" />
       <module name="ArrayLeetCodeQuestions" />
@@ -91,26 +104,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShuffleTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.ShuffleTheArray" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountItemsMatchingRule" />
         <item itemvalue="Application.IsPangram" />
         <item itemvalue="Application.NumbersAreSmallerThanCurrentNumber" />
         <item itemvalue="Application.NumberOfGoodPairs" />
         <item itemvalue="Application.KidsWithGreatestNumberOfCandies" />
-        <item itemvalue="Application.ShuffleTheArray" />
       </list>
     </recent_temporary>
   </component>
