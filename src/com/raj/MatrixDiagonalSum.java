@@ -42,7 +42,7 @@ public class MatrixDiagonalSum {
             for (int j = 0; j < l; j++) {
                 if (i == j) {
                     sum += mat[i][j];
-                } else if (l - j - 1 == i && i != j) {
+                } else if (l - j - 1 == i) {
                     sum += mat[i][j];
                 }
             }
