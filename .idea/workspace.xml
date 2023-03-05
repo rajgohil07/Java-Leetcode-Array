@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the program for the transpose matrix.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/AddToArrayFormOfInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to add to array-form of integer.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/AddToArrayFormOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/AddToArrayFormOfInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

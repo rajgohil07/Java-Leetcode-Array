@@ -37,14 +37,14 @@ import java.util.List;
 public class AddToArrayFormOfInteger {
     public static void main(String[] args) {
         // Initialize the values.
-        int[] num = new int[]{1, 2, 0, 0};
-        int k = 34;
+        int[] num = new int[]{9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
+        int k = 1;
         int length = num.length;
-        int val = 0;
+        long val = 0;
 
         // Combined the array to the number.
         for (int i = 0; i < length; i++) {
-            int currentVal = num[i];
+            long currentVal = num[i];
             for (int j = 0; j < length - 1 - i; j++) {
                 currentVal *= 10;
             }
@@ -56,7 +56,7 @@ public class AddToArrayFormOfInteger {
 
         // Set the data to the list.
         while (val > 0) {
-            int mod = val % 10;
+            int mod = (int) (val % 10);
             list.add(mod);
             val /= 10;
         }
