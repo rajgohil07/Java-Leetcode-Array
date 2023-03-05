@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Converted the entire program into the single for loop for the matrix diagonal sum." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the program for the transpose matrix.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/AddToArrayFormOfInteger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +39,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TransposeMatrix">
-    <configuration name="CountItemsMatchingRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.CountItemsMatchingRule" />
+  <component name="RunManager" selected="Application.AddToArrayFormOfInteger">
+    <configuration name="AddToArrayFormOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.AddToArrayFormOfInteger" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddToArrayFormOfInteger" />
         <item itemvalue="Application.TransposeMatrix" />
         <item itemvalue="Application.MatrixDiagonalSum" />
         <item itemvalue="Application.FlippingAnImage" />
         <item itemvalue="Application.FindHighestAltitude" />
-        <item itemvalue="Application.CountItemsMatchingRule" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677966381811</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Have added the program for the transpose matrix.">
+      <created>1677999191732</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1677999191732</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +254,8 @@
     <MESSAGE value="Fix incorrect answer for odd matrix for flipping an image  program." />
     <MESSAGE value="Implemented the program for the matrix diagonal sum." />
     <MESSAGE value="Removed the one extra condition for matrix diagonal sum." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed the one extra condition for matrix diagonal sum." />
+    <MESSAGE value="Have added the program for the transpose matrix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have added the program for the transpose matrix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
