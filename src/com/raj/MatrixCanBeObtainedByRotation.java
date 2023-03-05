@@ -48,7 +48,7 @@ public class MatrixCanBeObtainedByRotation {
         int[][] ans = new int[mat_l][mat_l];
         int loop_limit = 3;
 
-        for (int i = 0; i < loop_limit; i++) {
+        for (int i = 0; i <= loop_limit; i++) {
             for (int j = 0; j < mat_l; j++) {
                 for (int k = 0; k < mat_l; k++) {
                     ans[k][mat_l - 1 - j] = mat[j][k];
