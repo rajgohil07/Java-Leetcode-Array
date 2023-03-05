@@ -29,17 +29,15 @@ public class RansomNote {
         String magazine = "aab";
         char[] ransomNoteArr = ransomNote.toCharArray();
         char[] magazineArr = magazine.toCharArray();
-        int rl = ransomNoteArr.length;
-        int ml = magazineArr.length;
 
-        if (rl > ml) {
+        if ( ransomNoteArr.length > magazineArr.length) {
             System.out.println("String not matched");
         }
 
-        for (int i = 0; i < rl; i++) {
+        for (int i:ransomNoteArr) {
             boolean is_matched = false;
-            for (int j = 0; j < ml; j++) {
-                if (ransomNoteArr[i] == magazineArr[j]) {
+            for (int j = 0; j < magazineArr.length; j++) {
+                if (i == magazineArr[j]) {
                     is_matched = true;
                     magazineArr[j] = 'A';
                     break;
