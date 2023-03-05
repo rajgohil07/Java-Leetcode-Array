@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to add to array-form of integer.">
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Changed the variable type int to long due to incorrect answers for the larger values.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/AddToArrayFormOfInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/AddToArrayFormOfInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -235,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677999191732</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed the variable type int to long due to incorrect answers for the larger values.">
+      <created>1678001726562</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678001726562</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -254,7 +262,8 @@
     <MESSAGE value="Implemented the program for the matrix diagonal sum." />
     <MESSAGE value="Removed the one extra condition for matrix diagonal sum." />
     <MESSAGE value="Have added the program for the transpose matrix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have added the program for the transpose matrix." />
+    <MESSAGE value="Changed the variable type int to long due to incorrect answers for the larger values." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed the variable type int to long due to incorrect answers for the larger values." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -31,34 +31,38 @@ num does not contain any leading zeros except for the zero itself.
  */
 package com.raj;
 
+import java.math.BigInteger;
 import java.util.ArrayList;
 import java.util.List;
 
 public class AddToArrayFormOfInteger {
     public static void main(String[] args) {
         // Initialize the values.
-        int[] num = new int[]{9, 9, 9, 9, 9, 9, 9, 9, 9, 9};
-        int k = 1;
+        int[] num = new int[]{1, 2, 6, 3, 0, 7, 1, 7, 1, 9, 7, 5, 6, 6, 4, 4, 0, 0, 6, 3};
+        int k = 516;
         int length = num.length;
-        long val = 0;
+        BigInteger val = new BigInteger("0");
 
         // Combined the array to the number.
         for (int i = 0; i < length; i++) {
-            long currentVal = num[i];
-            for (int j = 0; j < length - 1 - i; j++) {
-                currentVal *= 10;
+            // Ref: https://stackoverflow.com/questions/21724945/store-a-number-that-is-longer-than-type-long-in-java
+            BigInteger currentVal = new BigInteger(String.valueOf(num[i]));
+            for (long j = 0; j < length - 1 - i; j++) {
+                currentVal = currentVal.multiply(new BigInteger("10"));
             }
-            val += currentVal;
+            val = val.add(new BigInteger(String.valueOf(currentVal)));
+
         }
 
-        val += k;
+        val = val.add(new BigInteger(String.valueOf(k)));
         List<Integer> list = new ArrayList<>();
 
         // Set the data to the list.
-        while (val > 0) {
-            int mod = (int) (val % 10);
+        // Ref for compare https://stackoverflow.com/questions/6208348/how-do-i-compare-values-of-biginteger-to-be-used-as-a-condition-in-a-loop
+        while (!val.equals(new BigInteger("0"))) {
+            int mod = val.mod(new BigInteger("10")).intValue();
             list.add(mod);
-            val /= 10;
+            val = val.divide(new BigInteger("10"));
         }
 
         // Reverse the list.
