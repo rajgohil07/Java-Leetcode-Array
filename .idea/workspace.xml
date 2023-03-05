@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Optimised the code to find the target array by rotating the provided array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/NumberOfStepsToReduceNumberToZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to count the steps to reduce the number to zero." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
