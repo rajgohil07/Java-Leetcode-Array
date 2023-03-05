@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="workspace.xml changes">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FizzBuzz.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to get the FizzBuzz.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/RansomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FizzBuzz">
+  <component name="RunManager" selected="Application.RansomNote">
     <configuration name="AddToArrayFormOfInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.AddToArrayFormOfInteger" />
       <module name="ArrayLeetCodeQuestions" />
@@ -92,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransposeMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.TransposeMatrix" />
+    <configuration name="RansomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.RansomNote" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="Application.NumberOfStepsToReduceNumberToZero" />
         <item itemvalue="Application.MatrixCanBeObtainedByRotation" />
         <item itemvalue="Application.AddToArrayFormOfInteger" />
-        <item itemvalue="Application.TransposeMatrix" />
       </list>
     </recent_temporary>
   </component>
