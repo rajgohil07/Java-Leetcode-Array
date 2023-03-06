@@ -31,6 +31,8 @@ All elements in the matrix are distinct.
  */
 package com.raj;
 
+import java.util.Arrays;
+
 public class LuckyNumbersInAMatrix {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
@@ -64,6 +66,7 @@ public class LuckyNumbersInAMatrix {
                 max = v;
             }
         }
-        System.out.println("Lucky number: " + max);
+        // Ref: https://stackoverflow.com/questions/16413032/java-how-to-return-int-array-from-list-of-inputs
+        System.out.println("Lucky number: " + Arrays.asList(max));
     }
 }
