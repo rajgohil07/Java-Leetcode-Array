@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added the space.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made changes to pass the failed test cases.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/LuckyNumbersInAMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/LuckyNumbersInAMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -299,7 +298,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678131783814</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Have made changes to pass the failed test cases.">
+      <created>1678133160673</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678133160673</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -326,7 +332,8 @@
     <MESSAGE value="Have made values unique to find n unique integers sum up to zero." />
     <MESSAGE value="workspace.xml changes" />
     <MESSAGE value="Added the space." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the space." />
+    <MESSAGE value="Have made changes to pass the failed test cases." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have made changes to pass the failed test cases." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -36,10 +36,9 @@ import java.util.Arrays;
 public class LuckyNumbersInAMatrix {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
-                {3, 6},
-                {7, 1},
-                {5, 2},
-                {4, 8}
+                {1, 10, 4, 2},
+                {9, 3, 8, 7},
+                {15, 16, 17, 12}
         };
 
         // Variable initialization.
@@ -66,7 +65,7 @@ public class LuckyNumbersInAMatrix {
             minArr[i] = min;
         }
 
-        // Gather the max value.
+        // Gather the min value for row result.
         for (int i = 0; i < m; i++) {
             int v = minArr[i];
             if (v > finalMaxValue) {
@@ -74,17 +73,18 @@ public class LuckyNumbersInAMatrix {
             }
         }
 
-        // Gather the min value.
+        // Gather the max value for column result.
         for (int i = 0; i < n; i++) {
-            int v = minArr[i];
+            int v = maxArr[i];
             if (finalMinValue > v) {
                 finalMinValue = v;
             }
         }
 
         // Log the result.
-        System.out.println("finalMinValue = " + finalMinValue);
-        System.out.println("finalMaxValue = " + finalMaxValue);
+        System.out.println("final min value for row is: " + finalMinValue);
+        System.out.println("final max value for column is: " + finalMaxValue);
+        System.out.println();
 
         if (finalMinValue == finalMaxValue) {
             // Ref: https://stackoverflow.com/questions/16413032/java-how-to-return-int-array-from-list-of-inputs
