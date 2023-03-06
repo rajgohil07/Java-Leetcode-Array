@@ -35,7 +35,7 @@ public class TwoSum {
         for (int i = 0; i < l - 1; i++) {
             int digit_required = target - nums[i];
             for (int j = 1; j < l; j++) {
-                if (nums[j] == digit_required) {
+                if (nums[j] == digit_required && i!=j) {
                     ans[0] = i;
                     ans[1] = j;
                     break outer_loop;
