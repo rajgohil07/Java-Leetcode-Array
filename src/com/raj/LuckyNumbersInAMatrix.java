@@ -31,8 +31,6 @@ All elements in the matrix are distinct.
  */
 package com.raj;
 
-import java.util.Arrays;
-
 public class LuckyNumbersInAMatrix {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
