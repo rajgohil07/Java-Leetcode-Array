@@ -30,8 +30,9 @@ public class FindNUniqueIntegersSumUpToZero {
         int c = n / 2;
         int[] ans = new int[n];
         for (int i = 0; i < c; i++) {
-            ans[i] = -1;
-            ans[c + i] = 1;
+            int v = i + 1;
+            ans[i] = v;
+            ans[c + i] = -1 * (v);
         }
         System.out.println("ans = " + Arrays.toString(ans));
     }
