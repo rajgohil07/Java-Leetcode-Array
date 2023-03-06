@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made values unique to find n unique integers sum up to zero." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="workspace.xml changes">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/LuckyNumbersInAMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindNUniqueIntegersSumUpToZero">
+  <component name="RunManager" selected="Application.LuckyNumbersInAMatrix">
     <configuration name="FindNUniqueIntegersSumUpToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindNUniqueIntegersSumUpToZero" />
       <module name="ArrayLeetCodeQuestions" />
@@ -63,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfStepsToReduceNumberToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.NumberOfStepsToReduceNumberToZero" />
+    <configuration name="LuckyNumbersInAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.LuckyNumbersInAMatrix" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LuckyNumbersInAMatrix" />
         <item itemvalue="Application.FindNUniqueIntegersSumUpToZero" />
         <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.RansomNote" />
         <item itemvalue="Application.FizzBuzz" />
-        <item itemvalue="Application.NumberOfStepsToReduceNumberToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678128594224</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="workspace.xml changes">
+      <created>1678129607496</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678129607496</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -305,10 +315,10 @@
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Increased the rotation limit to 1 to find the target array by rotating the provided array." />
     <MESSAGE value="Optimised the code to find the target array by rotating the provided array." />
-    <MESSAGE value="workspace.xml changes" />
     <MESSAGE value="Function to add n unique integers sum up to zero." />
     <MESSAGE value="Have made values unique to find n unique integers sum up to zero." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have made values unique to find n unique integers sum up to zero." />
+    <MESSAGE value="workspace.xml changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
