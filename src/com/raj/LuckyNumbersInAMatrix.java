@@ -66,6 +66,7 @@ public class LuckyNumbersInAMatrix {
                 max = v;
             }
         }
+
         // Ref: https://stackoverflow.com/questions/16413032/java-how-to-return-int-array-from-list-of-inputs
         System.out.println("Lucky number: " + Arrays.asList(max));
     }
