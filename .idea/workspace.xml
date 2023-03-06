@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Make condition changes the program for the two sum.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindNUniqueIntegersSumUpToZero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made values unique to find n unique integers sum up to zero." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -271,7 +268,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678012835067</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Function to add n unique integers sum up to zero.">
+      <created>1678128331680</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678128331680</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Have made values unique to find n unique integers sum up to zero.">
+      <created>1678128594224</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678128594224</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -295,7 +306,9 @@
     <MESSAGE value="Increased the rotation limit to 1 to find the target array by rotating the provided array." />
     <MESSAGE value="Optimised the code to find the target array by rotating the provided array." />
     <MESSAGE value="workspace.xml changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml changes" />
+    <MESSAGE value="Function to add n unique integers sum up to zero." />
+    <MESSAGE value="Have made values unique to find n unique integers sum up to zero." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have made values unique to find n unique integers sum up to zero." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
