@@ -36,38 +36,63 @@ import java.util.Arrays;
 public class LuckyNumbersInAMatrix {
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
-                {3, 7, 8},
-                {9, 11, 13},
-                {15, 16, 17}
+                {3, 6},
+                {7, 1},
+                {5, 2},
+                {4, 8}
         };
 
         // Variable initialization.
         int m = matrix.length;
         int n = matrix[0].length;
+        int finalMaxValue = Integer.MIN_VALUE;
+        int finalMinValue = Integer.MAX_VALUE;
         int[] minArr = new int[m];
+        int[] maxArr = new int[n];
 
         // Gather the array of the lowest values by parent array.
         for (int i = 0; i < m; i++) {
             int min = Integer.MAX_VALUE;
             for (int j = 0; j < n; j++) {
-                int val = matrix[i][j];
-                if (min > val) {
-                    min = val;
+                int currentVal = matrix[i][j];
+                int maxArrValue = maxArr[j];
+                if (min > currentVal) {
+                    min = currentVal;
+                }
+                if (maxArrValue < currentVal) {
+                    maxArr[j] = currentVal;
                 }
             }
             minArr[i] = min;
         }
 
         // Gather the max value.
-        int max = Integer.MIN_VALUE;
         for (int i = 0; i < m; i++) {
             int v = minArr[i];
-            if (v > max) {
-                max = v;
+            if (v > finalMaxValue) {
+                finalMaxValue = v;
             }
         }
 
-        // Ref: https://stackoverflow.com/questions/16413032/java-how-to-return-int-array-from-list-of-inputs
-        System.out.println("Lucky number: " + Arrays.asList(max));
+        // Gather the min value.
+        for (int i = 0; i < n; i++) {
+            int v = minArr[i];
+            if (finalMinValue > v) {
+                finalMinValue = v;
+            }
+        }
+
+        // Log the result.
+        System.out.println("finalMinValue = " + finalMinValue);
+        System.out.println("finalMaxValue = " + finalMaxValue);
+
+        if (finalMinValue == finalMaxValue) {
+            // Ref: https://stackoverflow.com/questions/16413032/java-how-to-return-int-array-from-list-of-inputs
+            System.out.println("Lucky number: " + Arrays.asList(finalMaxValue));
+        } else {
+            // Ref: https://stackoverflow.com/questions/16413032/java-how-to-return-int-array-from-list-of-inputs
+            System.out.println("Lucky number: " + Arrays.asList());
+        }
+
     }
 }
