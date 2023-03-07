@@ -70,7 +70,7 @@ public class ReshapeTheMatrix {
         // Store the temp array data into the required r and c format array.
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                ans[i][j] = temp[((i * r) + j)];
+                ans[i][j] = temp[((j * r) + i)];
             }
         }
 
