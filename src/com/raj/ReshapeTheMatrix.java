@@ -35,7 +35,10 @@ public class ReshapeTheMatrix {
 
         // Initialization
         int[][] mat = new int[][]{
-                {1, 2, 3, 4}
+                {1},
+                {2},
+                {3},
+                {4}
         };
         int r = 2;
         int c = 2;
@@ -63,7 +66,7 @@ public class ReshapeTheMatrix {
         // Store the matrix data into the one dimension temp array.
         for (int i = 0; i < mat_rl; i++) {
             for (int j = 0; j < mat_cl; j++) {
-                temp[((mat_rl * i) + j)] = mat[i][j];
+                temp[(((mat_cl) * i) + j)] = mat[i][j];
             }
         }
 
@@ -72,11 +75,10 @@ public class ReshapeTheMatrix {
             System.out.println("Ans: ");
             System.out.println(Arrays.toString(temp));
         }
-
         // Store the temp array data into the required r and c format array.
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                ans[i][j] = temp[((i * r) + j)];
+                ans[i][j] = temp[((i * c) + j)];
             }
         }
 
