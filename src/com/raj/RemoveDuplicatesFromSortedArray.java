@@ -44,7 +44,6 @@ nums is sorted in non-decreasing order.
 package com.raj;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class RemoveDuplicatesFromSortedArray {
     public static void main(String[] args) {
