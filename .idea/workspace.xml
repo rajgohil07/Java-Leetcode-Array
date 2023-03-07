@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made changes to the condition.">
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made changes to the condition to set the correct value into the new RxC matrix.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -319,11 +319,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678188209785</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Have made changes to the condition to set the correct value into the new RxC matrix.">
+      <created>1678189030943</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1678189030943</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added program to Running Sum of 1d Array." />
     <MESSAGE value="Have added the program to Shuffle the Array." />
     <MESSAGE value="Have added the program: Number of Good Pairs." />
     <MESSAGE value="Complement the program for How Many Numbers Are Smaller Than the Current Number." />
@@ -348,7 +354,8 @@
     <MESSAGE value="Have made changes to pass the failed test cases." />
     <MESSAGE value="Used the different example to find the luckiest number from the mxn matrix." />
     <MESSAGE value="Have made changes to the condition." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have made changes to the condition." />
+    <MESSAGE value="Have made changes to the condition to set the correct value into the new RxC matrix." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have made changes to the condition to set the correct value into the new RxC matrix." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -359,7 +366,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java</url>
-          <line>69</line>
+          <line>70</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>

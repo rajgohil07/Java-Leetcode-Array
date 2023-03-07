@@ -35,7 +35,8 @@ public class ReshapeTheMatrix {
 
         // Initialization
         int[][] mat = new int[][]{
-                {1, 2, 3, 4},
+                {1, 2},
+                {3, 4},
         };
         int r = 2;
         int c = 2;
@@ -44,6 +45,13 @@ public class ReshapeTheMatrix {
 
         // Return the original matrix if invalid row and column values provided.
         if (r * c != (mat_cl * mat_rl)) {
+            for (int[] i : mat) {
+                System.out.println(Arrays.toString(i));
+            }
+        }
+
+        // Return the original matrix if the matrix RxC and provided R and C are same.
+        if ((mat_cl == c) && (mat_rl == r)) {
             for (int[] i : mat) {
                 System.out.println(Arrays.toString(i));
             }
@@ -69,7 +77,7 @@ public class ReshapeTheMatrix {
         // Store the temp array data into the required r and c format array.
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                ans[j][i] = temp[((j * r) + i)];
+                ans[i][j] = temp[((j * r) + i)];
             }
         }
 
