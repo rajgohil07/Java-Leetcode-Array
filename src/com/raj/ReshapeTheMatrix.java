@@ -35,11 +35,10 @@ public class ReshapeTheMatrix {
 
         // Initialization
         int[][] mat = new int[][]{
-                {1, 2},
-                {3, 4}
+                {1, 2, 3, 4},
         };
-        int r = 1;
-        int c = 4;
+        int r = 2;
+        int c = 2;
         int mat_rl = mat.length;
         int mat_cl = mat[0].length;
 
@@ -70,7 +69,7 @@ public class ReshapeTheMatrix {
         // Store the temp array data into the required r and c format array.
         for (int i = 0; i < r; i++) {
             for (int j = 0; j < c; j++) {
-                ans[i][j] = temp[((j * r) + i)];
+                ans[j][i] = temp[((j * r) + i)];
             }
         }
 

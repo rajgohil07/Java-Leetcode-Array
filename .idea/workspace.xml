@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Used the different example to find the luckiest number from the mxn matrix.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made changes to the condition.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,11 +312,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678133492985</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Have made changes to the condition.">
+      <created>1678188209785</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1678188209785</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Added program to Running Sum of 1d Array." />
     <MESSAGE value="Have added the program to Shuffle the Array." />
     <MESSAGE value="Have added the program: Number of Good Pairs." />
@@ -342,7 +347,8 @@
     <MESSAGE value="Added the space." />
     <MESSAGE value="Have made changes to pass the failed test cases." />
     <MESSAGE value="Used the different example to find the luckiest number from the mxn matrix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Used the different example to find the luckiest number from the mxn matrix." />
+    <MESSAGE value="Have made changes to the condition." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have made changes to the condition." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -350,6 +356,11 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/raj/IsPangram.java</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/ReshapeTheMatrix.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
