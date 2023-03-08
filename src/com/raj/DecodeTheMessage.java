@@ -34,9 +34,10 @@ package com.raj;
 
 public class DecodeTheMessage {
     public static void main(String[] args) {
+        // Initialization
         String key = "the quick brown fox jumps over the lazy dog";
-        StringBuilder newKey = new StringBuilder();
         String message = "vkbs bs t suepuv";
+        StringBuilder newKey = new StringBuilder();
         StringBuilder ans = new StringBuilder();
 
         // Remove the space and remove the duplicate from the string.
@@ -57,6 +58,7 @@ public class DecodeTheMessage {
             }
         }
 
+        // Display the output.
         System.out.println("Private message: " + "'" + message + "'");
         System.out.println("Decoded message: " + "'" + ans.toString() + "'");
     }
