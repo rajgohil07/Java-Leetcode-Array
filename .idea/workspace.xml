@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to add the one value at the last">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/RemoveDuplicatesFromSortedArray.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Removed the unused import in the program to remove the duplicate values from the array and return it.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/ShuffleString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,20 +38,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveDuplicatesFromSortedArray">
-    <configuration name="FindNUniqueIntegersSumUpToZero" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.FindNUniqueIntegersSumUpToZero" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShuffleString">
     <configuration name="LuckyNumbersInAMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.LuckyNumbersInAMatrix" />
       <module name="ArrayLeetCodeQuestions" />
@@ -104,13 +91,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.ShuffleString" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuffleString" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.PlusOne" />
         <item itemvalue="Application.ReshapeTheMatrix" />
         <item itemvalue="Application.LuckyNumbersInAMatrix" />
-        <item itemvalue="Application.FindNUniqueIntegersSumUpToZero" />
       </list>
     </recent_temporary>
   </component>
@@ -340,12 +340,24 @@
       <option name="project" value="LOCAL" />
       <updated>1678190369723</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Have added the program to remove the duplicate values from the array and return it.">
+      <created>1678198553718</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1678198553718</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Removed the unused import in the program to remove the duplicate values from the array and return it.">
+      <created>1678198580638</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1678198580638</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have added the program to Shuffle the Array." />
-    <MESSAGE value="Have added the program: Number of Good Pairs." />
     <MESSAGE value="Complement the program for How Many Numbers Are Smaller Than the Current Number." />
     <MESSAGE value="Optimized the code by using the enhanced for loop for How Many Numbers Are Smaller Than the Current Number." />
     <MESSAGE value="Implemented the program to Check if the Sentence Is Pangram" />
@@ -369,7 +381,9 @@
     <MESSAGE value="Used the different example to find the luckiest number from the mxn matrix." />
     <MESSAGE value="Have made changes to the condition." />
     <MESSAGE value="Have made changes to the condition to set the correct value into the new RxC matrix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have made changes to the condition to set the correct value into the new RxC matrix." />
+    <MESSAGE value="Have added the program to remove the duplicate values from the array and return it." />
+    <MESSAGE value="Removed the unused import in the program to remove the duplicate values from the array and return it." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed the unused import in the program to remove the duplicate values from the array and return it." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
