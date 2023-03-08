@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to shuffle the string.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/DecodeTheMessage.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added the comments for program to decode the message.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/LeftAndRightSumDifferences.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +39,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DecodeTheMessage">
+  <component name="RunManager" selected="Application.LeftAndRightSumDifferences">
     <configuration name="DecodeTheMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.DecodeTheMessage" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftAndRightSumDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.LeftAndRightSumDifferences" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -79,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReshapeTheMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.ReshapeTheMatrix" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShuffleString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.ShuffleString" />
       <module name="ArrayLeetCodeQuestions" />
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftAndRightSumDifferences" />
         <item itemvalue="Application.DecodeTheMessage" />
         <item itemvalue="Application.ShuffleString" />
         <item itemvalue="Application.RemoveDuplicatesFromSortedArray" />
         <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.ReshapeTheMatrix" />
       </list>
     </recent_temporary>
   </component>
@@ -362,12 +362,24 @@
       <option name="project" value="LOCAL" />
       <updated>1678277885798</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Implemented the program decode the message.">
+      <created>1678280258439</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1678280258439</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Added the comments for program to decode the message.">
+      <created>1678280369754</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1678280369754</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Optimized the code by using the enhanced for loop for How Many Numbers Are Smaller Than the Current Number." />
-    <MESSAGE value="Implemented the program to Check if the Sentence Is Pangram" />
     <MESSAGE value="Implemented the program to Count Items Matching a Rule." />
     <MESSAGE value="used of equals method to Count Items Matching a Rule." />
     <MESSAGE value="use of enhanced for loop to Count Items Matching a Rule." />
@@ -391,7 +403,9 @@
     <MESSAGE value="Have added the program to remove the duplicate values from the array and return it." />
     <MESSAGE value="Removed the unused import in the program to remove the duplicate values from the array and return it." />
     <MESSAGE value="Implemented the program to shuffle the string." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the program to shuffle the string." />
+    <MESSAGE value="Implemented the program decode the message." />
+    <MESSAGE value="Added the comments for program to decode the message." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the comments for program to decode the message." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
