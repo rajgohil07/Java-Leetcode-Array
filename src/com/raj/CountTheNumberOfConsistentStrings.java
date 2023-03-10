@@ -38,10 +38,10 @@ public class CountTheNumberOfConsistentStrings {
         int ans = 0;
 
         // Logic.
-        for (int i = 0; i < words.length; i++) {
-            int charlength = words[i].toCharArray().length;
+        for (String s : words) {
+            int charlength = s.toCharArray().length;
             for (int j = 0; j < charlength; j++) {
-                if (allowed.contains(Character.toString(words[i].charAt(j)))) {
+                if (allowed.contains(Character.toString(s.charAt(j)))) {
                     if ((j == charlength - 1)) {
                         ans++;
                     }
