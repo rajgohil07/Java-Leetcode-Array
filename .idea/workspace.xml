@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to display unique morse code.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/CountTheNumberOfConsistentStrings.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of enhanced foreach loop for the program to display count the number of consistent strings.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/SortThePeople.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CountTheNumberOfConsistentStrings">
+  <component name="RunManager" selected="Application.SortThePeople">
     <configuration name="CheckIfTwoStringArraysAreEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.CheckIfTwoStringArraysAreEquivalent" />
       <module name="ArrayLeetCodeQuestions" />
@@ -66,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumNumberOfWordsFoundInSentences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.MaximumNumberOfWordsFoundInSentences" />
+    <configuration name="SortThePeople" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.SortThePeople" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortThePeople" />
         <item itemvalue="Application.CountTheNumberOfConsistentStrings" />
         <item itemvalue="Application.UniqueMorseCodeWords" />
         <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.CheckIfTwoStringArraysAreEquivalent" />
-        <item itemvalue="Application.MaximumNumberOfWordsFoundInSentences" />
       </list>
     </recent_temporary>
   </component>
@@ -123,20 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial commit">
-      <created>1677686440199</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1677686440199</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Added program to Running Sum of 1d Array.">
-      <created>1677691702889</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1677691702889</updated>
     </task>
     <task id="LOCAL-00003" summary="Have added the program to Shuffle the Array.">
       <created>1677701268624</created>
@@ -467,12 +453,24 @@
       <option name="project" value="LOCAL" />
       <updated>1678430072346</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Program to display count the number of consistent strings.">
+      <created>1678435795696</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1678435795696</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Use of enhanced foreach loop for the program to display count the number of consistent strings.">
+      <created>1678435875668</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1678435875668</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="workspace.xml changes" />
-    <MESSAGE value="Added the space." />
     <MESSAGE value="Have made changes to pass the failed test cases." />
     <MESSAGE value="Used the different example to find the luckiest number from the mxn matrix." />
     <MESSAGE value="Have made changes to the condition." />
@@ -496,7 +494,9 @@
     <MESSAGE value="Use of 2 append method instead of contact, in program to truncate sentence." />
     <MESSAGE value="Removed the extra space at the end of the string, in program to truncate sentence." />
     <MESSAGE value="Program to display unique morse code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Program to display unique morse code." />
+    <MESSAGE value="Program to display count the number of consistent strings." />
+    <MESSAGE value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
