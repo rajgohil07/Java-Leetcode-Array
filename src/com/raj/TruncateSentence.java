@@ -53,6 +53,6 @@ public class TruncateSentence {
         }
 
         // Display the result.
-        System.out.println("Modified string: " + ans.toString());
+        System.out.println("Modified string: " + ans.substring(0, ans.length() - 1));
     }
 }
