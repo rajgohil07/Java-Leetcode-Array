@@ -38,11 +38,10 @@ public class MaximumNumberOfWordsFoundInSentences {
         // Initialization.
         String[] sentences = new String[]{"alice and bob love leetcode", "i think so too", "this is great thanks very much"};
         int a = 0;
-        int l = sentences.length;
 
         // Logic.
-        for (int i = 0; i < l; i++) {
-            int t = sentences[i].split(" ").length;
+        for (String s:sentences) {
+            int t = s.split(" ").length;
             if (a < t) {
                 a = t;
             }
