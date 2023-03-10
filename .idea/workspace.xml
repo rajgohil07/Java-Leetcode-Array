@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added the description in the program to Check If Two String Arrays are Equivalent.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/TruncateSentence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to truncate sentence.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/TruncateSentence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/TruncateSentence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -446,11 +445,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678428408067</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Implemented the program to truncate sentence.">
+      <created>1678429518638</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1678429518638</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Increased the rotation limit to 1 to find the target array by rotating the provided array." />
     <MESSAGE value="Optimised the code to find the target array by rotating the provided array." />
     <MESSAGE value="Function to add n unique integers sum up to zero." />
@@ -475,7 +480,8 @@
     <MESSAGE value="Made changes in the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Added the description in the program to Check If Two String Arrays are Equivalent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the description in the program to Check If Two String Arrays are Equivalent." />
+    <MESSAGE value="Implemented the program to truncate sentence." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the program to truncate sentence." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

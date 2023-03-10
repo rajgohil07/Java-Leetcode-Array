@@ -48,7 +48,7 @@ public class TruncateSentence {
             ans.append(s);
         } else {
             for (int i = 0; i < k; i++) {
-                ans.append(arr[i] + " ");
+                ans.append(arr[i]).append(" ");
             }
         }
 
