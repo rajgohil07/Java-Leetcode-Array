@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find final value of variable after performing operations.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/MaximumNumberOfWordsFoundInSentences.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,7 +36,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaximumNumberOfWordsFoundInSentences">
+  <component name="RunManager" selected="Application.CheckIfTwoStringArraysAreEquivalent">
+    <configuration name="CheckIfTwoStringArraysAreEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.CheckIfTwoStringArraysAreEquivalent" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FinalValueOfVariableAfterPerformingOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FinalValueOfVariableAfterPerformingOperations" />
       <module name="ArrayLeetCodeQuestions" />
@@ -55,19 +65,6 @@
     </configuration>
     <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.JewelsAndStones" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LeftAndRightSumDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.LeftAndRightSumDifferences" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfTwoStringArraysAreEquivalent" />
         <item itemvalue="Application.MaximumNumberOfWordsFoundInSentences" />
         <item itemvalue="Application.FinalValueOfVariableAfterPerformingOperations" />
         <item itemvalue="Application.JewelsAndStones" />
         <item itemvalue="Application.RemoveOneElementToMakeArrayStrictlyIncreasing" />
-        <item itemvalue="Application.LeftAndRightSumDifferences" />
       </list>
     </recent_temporary>
   </component>
@@ -397,12 +394,24 @@
       <option name="project" value="LOCAL" />
       <updated>1678426739031</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Have implemented the program to Maximum Number of Words Found in Sentences.">
+      <created>1678427052545</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1678427052545</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences.">
+      <created>1678427132687</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1678427132687</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Program to Find the Highest Altitude" />
-    <MESSAGE value="Fix incorrect answer for odd matrix for flipping an image  program." />
     <MESSAGE value="Implemented the program for the matrix diagonal sum." />
     <MESSAGE value="Removed the one extra condition for matrix diagonal sum." />
     <MESSAGE value="Have added the program for the transpose matrix." />
@@ -426,7 +435,9 @@
     <MESSAGE value="Have implemented the program for the let and right sum differences." />
     <MESSAGE value="Have implemented the program to count the jewels and stones." />
     <MESSAGE value="Have implemented the program to find final value of variable after performing operations." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find final value of variable after performing operations." />
+    <MESSAGE value="Have implemented the program to Maximum Number of Words Found in Sentences." />
+    <MESSAGE value="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
