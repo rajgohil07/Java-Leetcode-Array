@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to sort the person array with its height in the descending order." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the leetcode description for the Sort the People problem.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/FindFirstPalindromicStringInTheArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +39,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SortThePeople">
-    <configuration name="CheckIfTwoStringArraysAreEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.CheckIfTwoStringArraysAreEquivalent" />
+  <component name="RunManager" selected="Application.FindFirstPalindromicStringInTheArray">
+    <configuration name="CountTheNumberOfConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.CountTheNumberOfConsistentStrings" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -50,8 +53,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountTheNumberOfConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.CountTheNumberOfConsistentStrings" />
+    <configuration name="FindFirstPalindromicStringInTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.FindFirstPalindromicStringInTheArray" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindFirstPalindromicStringInTheArray" />
         <item itemvalue="Application.SortThePeople" />
         <item itemvalue="Application.CountTheNumberOfConsistentStrings" />
         <item itemvalue="Application.UniqueMorseCodeWords" />
         <item itemvalue="Application.TruncateSentence" />
-        <item itemvalue="Application.CheckIfTwoStringArraysAreEquivalent" />
       </list>
     </recent_temporary>
   </component>
@@ -120,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Have added the program: Number of Good Pairs.">
-      <created>1677782635006</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1677782635006</updated>
     </task>
     <task id="LOCAL-00005" summary="Complement the program for How Many Numbers Are Smaller Than the Current Number.">
       <created>1677783206921</created>
@@ -464,11 +460,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678454823570</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Have added the leetcode description for the Sort the People problem.">
+      <created>1678455169609</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1678455169609</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Used the different example to find the luckiest number from the mxn matrix." />
     <MESSAGE value="Have made changes to the condition." />
     <MESSAGE value="Have made changes to the condition to set the correct value into the new RxC matrix." />
     <MESSAGE value="Have added the program to remove the duplicate values from the array and return it." />
@@ -493,7 +495,8 @@
     <MESSAGE value="Program to display count the number of consistent strings." />
     <MESSAGE value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
     <MESSAGE value="Implemented the program to sort the person array with its height in the descending order." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implemented the program to sort the person array with its height in the descending order." />
+    <MESSAGE value="Have added the leetcode description for the Sort the People problem." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have added the leetcode description for the Sort the People problem." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
