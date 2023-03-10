@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to Check If Two String Arrays are Equivalent." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -415,12 +415,24 @@
       <option name="project" value="LOCAL" />
       <updated>1678427776468</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Made changes in the program to Check If Two String Arrays are Equivalent.">
+      <created>1678428072285</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1678428072285</updated>
+    </task>
+    <task id="LOCAL-00044" summary="Use of string builder in the program to Check If Two String Arrays are Equivalent.">
+      <created>1678428140587</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1678428140587</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed the one extra condition for matrix diagonal sum." />
-    <MESSAGE value="Have added the program for the transpose matrix." />
     <MESSAGE value="Changed the variable type int to long due to incorrect answers for the larger values." />
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Increased the rotation limit to 1 to find the target array by rotating the provided array." />
@@ -444,7 +456,9 @@
     <MESSAGE value="Have implemented the program to Maximum Number of Words Found in Sentences." />
     <MESSAGE value="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
     <MESSAGE value="Have implemented the program to Check If Two String Arrays are Equivalent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to Check If Two String Arrays are Equivalent." />
+    <MESSAGE value="Made changes in the program to Check If Two String Arrays are Equivalent." />
+    <MESSAGE value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
