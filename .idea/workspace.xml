@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to Check If Two String Arrays are Equivalent." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,11 +408,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678427132687</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Have implemented the program to Check If Two String Arrays are Equivalent.">
+      <created>1678427776468</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1678427776468</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented the program for the matrix diagonal sum." />
     <MESSAGE value="Removed the one extra condition for matrix diagonal sum." />
     <MESSAGE value="Have added the program for the transpose matrix." />
     <MESSAGE value="Changed the variable type int to long due to incorrect answers for the larger values." />
@@ -437,7 +443,8 @@
     <MESSAGE value="Have implemented the program to find final value of variable after performing operations." />
     <MESSAGE value="Have implemented the program to Maximum Number of Words Found in Sentences." />
     <MESSAGE value="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
+    <MESSAGE value="Have implemented the program to Check If Two String Arrays are Equivalent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to Check If Two String Arrays are Equivalent." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
