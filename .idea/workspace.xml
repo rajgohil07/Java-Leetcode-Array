@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added the description in the program to Check If Two String Arrays are Equivalent.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/TruncateSentence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.CheckIfTwoStringArraysAreEquivalent">
+  <component name="RunManager" selected="Application.TruncateSentence">
     <configuration name="CheckIfTwoStringArraysAreEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.CheckIfTwoStringArraysAreEquivalent" />
       <module name="ArrayLeetCodeQuestions" />
@@ -89,8 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveOneElementToMakeArrayStrictlyIncreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.RemoveOneElementToMakeArrayStrictlyIncreasing" />
+    <configuration name="TruncateSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.TruncateSentence" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.CheckIfTwoStringArraysAreEquivalent" />
         <item itemvalue="Application.MaximumNumberOfWordsFoundInSentences" />
         <item itemvalue="Application.FinalValueOfVariableAfterPerformingOperations" />
         <item itemvalue="Application.JewelsAndStones" />
-        <item itemvalue="Application.RemoveOneElementToMakeArrayStrictlyIncreasing" />
       </list>
     </recent_temporary>
   </component>
@@ -429,11 +432,24 @@
       <option name="project" value="LOCAL" />
       <updated>1678428140587</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Added the description in the program to Check If Two String Arrays are Equivalent.">
+      <created>1678428394088</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1678428394088</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Added the description in the program to Check If Two String Arrays are Equivalent.">
+      <created>1678428408067</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1678428408067</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed the variable type int to long due to incorrect answers for the larger values." />
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Increased the rotation limit to 1 to find the target array by rotating the provided array." />
     <MESSAGE value="Optimised the code to find the target array by rotating the provided array." />
@@ -458,7 +474,8 @@
     <MESSAGE value="Have implemented the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Made changes in the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
+    <MESSAGE value="Added the description in the program to Check If Two String Arrays are Equivalent." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the description in the program to Check If Two String Arrays are Equivalent." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
