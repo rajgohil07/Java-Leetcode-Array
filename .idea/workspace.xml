@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of enhanced foreach loop for the program to display count the number of consistent strings.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/SortThePeople.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to sort the person array with its height in the descending order." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Have added the program to Shuffle the Array.">
-      <created>1677701268624</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1677701268624</updated>
     </task>
     <task id="LOCAL-00004" summary="Have added the program: Number of Good Pairs.">
       <created>1677782635006</created>
@@ -467,11 +457,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678435875668</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Implemented the program to sort the person array with its height in the descending order.">
+      <created>1678454823570</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1678454823570</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have made changes to pass the failed test cases." />
     <MESSAGE value="Used the different example to find the luckiest number from the mxn matrix." />
     <MESSAGE value="Have made changes to the condition." />
     <MESSAGE value="Have made changes to the condition to set the correct value into the new RxC matrix." />
@@ -496,7 +492,8 @@
     <MESSAGE value="Program to display unique morse code." />
     <MESSAGE value="Program to display count the number of consistent strings." />
     <MESSAGE value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
+    <MESSAGE value="Implemented the program to sort the person array with its height in the descending order." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the program to sort the person array with its height in the descending order." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
