@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the leetcode description for the Sort the People problem.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindFirstPalindromicStringInTheArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to Find First Palindromic String in the Array." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,13 +120,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Complement the program for How Many Numbers Are Smaller Than the Current Number.">
-      <created>1677783206921</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1677783206921</updated>
     </task>
     <task id="LOCAL-00006" summary="Optimized the code by using the enhanced for loop for How Many Numbers Are Smaller Than the Current Number.">
       <created>1677783293108</created>
@@ -467,11 +457,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678455169609</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="Have implemented the program to Find First Palindromic String in the Array.">
+      <created>1678456237412</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1678456237412</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have made changes to the condition." />
     <MESSAGE value="Have made changes to the condition to set the correct value into the new RxC matrix." />
     <MESSAGE value="Have added the program to remove the duplicate values from the array and return it." />
     <MESSAGE value="Removed the unused import in the program to remove the duplicate values from the array and return it." />
@@ -496,7 +492,8 @@
     <MESSAGE value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
     <MESSAGE value="Implemented the program to sort the person array with its height in the descending order." />
     <MESSAGE value="Have added the leetcode description for the Sort the People problem." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have added the leetcode description for the Sort the People problem." />
+    <MESSAGE value="Have implemented the program to Find First Palindromic String in the Array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to Find First Palindromic String in the Array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
