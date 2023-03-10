@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of 2 append method instead of contact, in program to truncate sentence." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to display unique morse code.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/UniqueMorseCodeWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.TruncateSentence">
+  <component name="RunManager" selected="Application.UniqueMorseCodeWords">
     <configuration name="CheckIfTwoStringArraysAreEquivalent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.CheckIfTwoStringArraysAreEquivalent" />
       <module name="ArrayLeetCodeQuestions" />
@@ -52,19 +55,6 @@
     </configuration>
     <configuration name="FinalValueOfVariableAfterPerformingOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FinalValueOfVariableAfterPerformingOperations" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="JewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.JewelsAndStones" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -102,13 +92,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UniqueMorseCodeWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.UniqueMorseCodeWords" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UniqueMorseCodeWords" />
         <item itemvalue="Application.TruncateSentence" />
         <item itemvalue="Application.CheckIfTwoStringArraysAreEquivalent" />
         <item itemvalue="Application.MaximumNumberOfWordsFoundInSentences" />
         <item itemvalue="Application.FinalValueOfVariableAfterPerformingOperations" />
-        <item itemvalue="Application.JewelsAndStones" />
       </list>
     </recent_temporary>
   </component>
@@ -457,12 +460,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678429586814</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Removed the extra space at the end of the string, in program to truncate sentence.">
+      <created>1678430072346</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1678430072346</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Function to add n unique integers sum up to zero." />
-    <MESSAGE value="Have made values unique to find n unique integers sum up to zero." />
     <MESSAGE value="workspace.xml changes" />
     <MESSAGE value="Added the space." />
     <MESSAGE value="Have made changes to pass the failed test cases." />
@@ -486,7 +494,9 @@
     <MESSAGE value="Implemented the program to truncate sentence." />
     <MESSAGE value="Use of 2 append method instead of contact,in program to truncate sentence." />
     <MESSAGE value="Use of 2 append method instead of contact, in program to truncate sentence." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use of 2 append method instead of contact, in program to truncate sentence." />
+    <MESSAGE value="Removed the extra space at the end of the string, in program to truncate sentence." />
+    <MESSAGE value="Program to display unique morse code." />
+    <option name="LAST_COMMIT_MESSAGE" value="Program to display unique morse code." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
