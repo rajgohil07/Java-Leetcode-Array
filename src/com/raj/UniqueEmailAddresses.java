@@ -35,6 +35,6 @@ public class UniqueEmailAddresses {
 
         // Display the unique email list with count.
         System.out.println("Unique set of emails: " + set);
-        System.out.println("Unique email count: "+set.size());
+        System.out.println("Unique email count: " + set.size());
     }
 }
