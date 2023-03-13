@@ -49,17 +49,19 @@ public class KthDistinctStringInArray {
 
         // Logic.
         for (int i = 0; i < arr.length; i++) {
-            if (!valueToSkip.contains(arr[i]) && i == arr.length - 1) {
-                uniqueArr.add(arr[i]);
+            String parentValue = arr[i];
+            if (!valueToSkip.contains(parentValue) && i == arr.length - 1) {
+                uniqueArr.add(parentValue);
             }
             for (int j = (i + 1); j < arr.length; j++) {
-                if (valueToSkip.contains(arr[j])) {
+                String childValue = arr[j];
+                if (valueToSkip.contains(childValue)) {
                     break;
                 }
-                if (arr[i].equals(arr[j])) {
-                    valueToSkip.add(arr[i]);
+                if (parentValue.equals(childValue)) {
+                    valueToSkip.add(parentValue);
                 } else if (j + i == arr.length) {
-                    uniqueArr.add(arr[i]);
+                    uniqueArr.add(parentValue);
                 }
             }
         }
@@ -69,6 +71,6 @@ public class KthDistinctStringInArray {
         if (uniqueArr.size() >= k - 1) {
             ans = uniqueArr.get(k - 1);
         }
-        System.out.println("Distinct Unique String: " + ans);
+        System.out.println("Distinct Unique String at a " + k + " position is: " + ans);
     }
 }

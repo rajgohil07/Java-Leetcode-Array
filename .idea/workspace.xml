@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented program to count prefixes of a given string.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/KthDistinctStringInArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Changes in logs to find the distinct unique character from the array.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/KthDistinctStringInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/KthDistinctStringInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -123,27 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00012" summary="Program to Find the Highest Altitude">
-      <created>1677924112797</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1677924112797</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Fix incorrect answer for odd matrix for flipping an image  program.">
-      <created>1677931444002</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1677931444002</updated>
-    </task>
-    <task id="LOCAL-00014" summary="Implemented the program for the matrix diagonal sum.">
-      <created>1677966298919</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1677966298919</updated>
     </task>
     <task id="LOCAL-00015" summary="Removed the one extra condition for matrix diagonal sum.">
       <created>1677966381811</created>
@@ -467,13 +446,42 @@
       <option name="project" value="LOCAL" />
       <updated>1678703984684</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="Have added the program to find the distinct unique character from the array.">
+      <created>1678707628846</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707628846</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Removed the logs to find the distinct unique character from the array.">
+      <created>1678707934056</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707934056</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Changes in logs to find the distinct unique character from the array.">
+      <created>1678707979567</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1678707979567</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program for the let and right sum differences." />
-    <MESSAGE value="Have implemented the program to count the jewels and stones." />
-    <MESSAGE value="Have implemented the program to find final value of variable after performing operations." />
     <MESSAGE value="Have implemented the program to Maximum Number of Words Found in Sentences." />
     <MESSAGE value="Use of the enhanced for loop in the program to Maximum Number of Words Found in Sentences." />
     <MESSAGE value="Have implemented the program to Check If Two String Arrays are Equivalent." />
@@ -496,7 +504,10 @@
     <MESSAGE value="Implemented the program to delete columns to make sorted." />
     <MESSAGE value="Changed the display result string." />
     <MESSAGE value="Have implemented program to count prefixes of a given string." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented program to count prefixes of a given string." />
+    <MESSAGE value="Have added the program to find the distinct unique character from the array." />
+    <MESSAGE value="Removed the logs to find the distinct unique character from the array." />
+    <MESSAGE value="Changes in logs to find the distinct unique character from the array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes in logs to find the distinct unique character from the array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
