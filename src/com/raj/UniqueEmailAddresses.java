@@ -10,8 +10,6 @@ import java.util.Set;
 public class UniqueEmailAddresses {
     public static void main(String[] args) {
         String[] emails = new String[]{"test.email+alex@leetcode.com", "test.e.mail+bob.cathy@leetcode.com", "testemail+david@lee.tcode.com"};
-        int l = emails.length;
-//        ArrayList<String> ans = new ArrayList<>();
         Set<String> set = new HashSet<>();
 
         // Logic
