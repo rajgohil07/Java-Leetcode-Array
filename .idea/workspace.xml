@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Fixed index out of bound issue for arraylist in the code to find the distinct unique character from the array.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/MaximumValueOfStringInArray.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to find Maximum Value of a String in an Array.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/ShortestDistanceToCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,22 +40,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MaximumValueOfStringInArray">
+  <component name="RunManager" selected="Application.ShortestDistanceToCharacter">
     <configuration name="CountPrefixesOfGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.CountPrefixesOfGivenString" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CountingWordsWithAGivenPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.CountingWordsWithAGivenPrefix" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -106,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortestDistanceToCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.ShortestDistanceToCharacter" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortestDistanceToCharacter" />
         <item itemvalue="Application.MaximumValueOfStringInArray" />
         <item itemvalue="Application.KthDistinctStringInArray" />
         <item itemvalue="Application.CountPrefixesOfGivenString" />
         <item itemvalue="Application.DIStringMatch" />
-        <item itemvalue="Application.CountingWordsWithAGivenPrefix" />
       </list>
     </recent_temporary>
   </component>
