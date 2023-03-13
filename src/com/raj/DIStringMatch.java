@@ -33,19 +33,21 @@ public class DIStringMatch {
     public static void main(String[] args) {
         // Initialization.
         String s = "IDID";
-        int l = s.length();
-        int increment = l;
-        int decrement = 1;
-        int[] ans = new int[l + 1];
+        int N = s.length();
+        int lo = 0;
+        int hi = N;
+        int[] ans = new int[N + 1];
 
         // Logic.
-        for (int i = 0; i < l; i++) {
-            if (s.charAt(i) == 'I') {
-                ans[i + 1] = increment--;
-            } else {
-                ans[i + 1] = decrement++;
-            }
+
+        for (int i = 0; i < N; ++i) {
+            if (s.charAt(i) == 'I')
+                ans[i] = lo++;
+            else
+                ans[i] = hi--;
         }
+
+        ans[N] = lo;
 
         // Display the result.
         System.out.println("Required DI string is: " + Arrays.toString(ans));

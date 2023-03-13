@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find DI string match.">
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have made changes to the program to find DI string match.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/DIStringMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/DIStringMatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,13 +122,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Implemented the program to Count Items Matching a Rule.">
-      <created>1677915902247</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1677915902247</updated>
     </task>
     <task id="LOCAL-00009" summary="used of equals method to Count Items Matching a Rule.">
       <created>1677916054901</created>
@@ -466,11 +459,17 @@
       <option name="project" value="LOCAL" />
       <updated>1678692346614</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Have made changes to the program to find DI string match.">
+      <created>1678692958203</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1678692958203</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Removed the unused import in the program to remove the duplicate values from the array and return it." />
     <MESSAGE value="Implemented the program to shuffle the string." />
     <MESSAGE value="Implemented the program decode the message." />
     <MESSAGE value="Added the comments for program to decode the message." />
@@ -495,7 +494,8 @@
     <MESSAGE value="Have implemented the program to Find First Palindromic String in the Array." />
     <MESSAGE value="Have implemented the program to find number of strings in words that contain pref as a prefix." />
     <MESSAGE value="Have implemented the program to find DI string match." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find DI string match." />
+    <MESSAGE value="Have made changes to the program to find DI string match." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have made changes to the program to find DI string match." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -513,11 +513,6 @@
           <url>file://$PROJECT_DIR$/src/com/raj/CountTheNumberOfConsistentStrings.java</url>
           <line>40</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/raj/DIStringMatch.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
