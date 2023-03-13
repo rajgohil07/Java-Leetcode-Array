@@ -34,15 +34,16 @@ public class DIStringMatch {
         // Initialization.
         String s = "IDID";
         int l = s.length();
-        int preV = 0;
+        int increment = l;
+        int decrement = 1;
         int[] ans = new int[l + 1];
 
         // Logic.
         for (int i = 0; i < l; i++) {
             if (s.charAt(i) == 'I') {
-                ans[i + 1] = ++preV;
+                ans[i + 1] = increment--;
             } else {
-                ans[i + 1] = --preV;
+                ans[i + 1] = decrement++;
             }
         }
 
