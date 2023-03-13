@@ -65,7 +65,7 @@ public class KthDistinctStringInArray {
         }
 
         // Display the result.
-        System.out.println(uniqueArr);
+        System.out.println("Unique Array list: " + uniqueArr);
         if (uniqueArr.size() >= k - 1) {
             ans = uniqueArr.get(k - 1);
         }
