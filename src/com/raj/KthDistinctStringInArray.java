@@ -43,24 +43,25 @@ public class KthDistinctStringInArray {
         // Initialization.
         String[] arr = new String[]{"d", "b", "c", "b", "c", "a"};
         int k = 2;
+        int length= arr.length;
         ArrayList<String> uniqueArr = new ArrayList<>();
         ArrayList<String> valueToSkip = new ArrayList<>();
         String ans = "";
 
         // Logic.
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 0; i < length; i++) {
             String parentValue = arr[i];
-            if (!valueToSkip.contains(parentValue) && i == arr.length - 1) {
+            if (!valueToSkip.contains(parentValue) && i == length - 1) {
                 uniqueArr.add(parentValue);
             }
-            for (int j = (i + 1); j < arr.length; j++) {
+            for (int j = (i + 1); j < length; j++) {
                 String childValue = arr[j];
                 if (valueToSkip.contains(childValue)) {
                     break;
                 }
                 if (parentValue.equals(childValue)) {
                     valueToSkip.add(parentValue);
-                } else if (j + i == arr.length) {
+                } else if (j + i == length) {
                     uniqueArr.add(parentValue);
                 }
             }
