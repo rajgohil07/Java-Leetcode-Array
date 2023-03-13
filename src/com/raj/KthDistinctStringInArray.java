@@ -52,9 +52,7 @@ public class KthDistinctStringInArray {
             if (!valueToSkip.contains(arr[i]) && i == arr.length - 1) {
                 uniqueArr.add(arr[i]);
             }
-            System.out.print("\n" + arr[i] + ": ");
             for (int j = (i + 1); j < arr.length; j++) {
-                System.out.print(arr[j]);
                 if (valueToSkip.contains(arr[j])) {
                     break;
                 }
@@ -67,7 +65,6 @@ public class KthDistinctStringInArray {
         }
 
         // Display the result.
-        System.out.println("Result");
         System.out.println(uniqueArr);
         if (uniqueArr.size() >= k - 1) {
             ans = uniqueArr.get(k - 1);
