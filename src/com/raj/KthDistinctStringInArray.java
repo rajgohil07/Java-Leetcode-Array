@@ -56,12 +56,13 @@ public class KthDistinctStringInArray {
             }
             for (int j = (i + 1); j < length; j++) {
                 String childValue = arr[j];
-                if (valueToSkip.contains(childValue)) {
+                if (valueToSkip.contains(parentValue)) {
                     break;
                 }
                 if (parentValue.equals(childValue)) {
                     valueToSkip.add(parentValue);
-                } else if (j + i == length) {
+                    break;
+                } else if (j + 1 == length) {
                     uniqueArr.add(parentValue);
                 }
             }

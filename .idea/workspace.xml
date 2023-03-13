@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Changes in logs to find the distinct unique character from the array.">
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Optimized the code to find the distinct unique character from the array.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/KthDistinctStringInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/KthDistinctStringInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -525,6 +525,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/CountTheNumberOfConsistentStrings.java</url>
           <line>40</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/KthDistinctStringInArray.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
