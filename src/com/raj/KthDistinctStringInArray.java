@@ -41,8 +41,8 @@ import java.util.ArrayList;
 public class KthDistinctStringInArray {
     public static void main(String[] args) {
         // Initialization.
-        String[] arr = new String[]{"d", "b", "c", "b", "c", "a"};
-        int k = 2;
+        String[] arr = new String[]{"a", "a"};
+        int k = 1;
         int length= arr.length;
         ArrayList<String> uniqueArr = new ArrayList<>();
         ArrayList<String> valueToSkip = new ArrayList<>();
@@ -70,7 +70,7 @@ public class KthDistinctStringInArray {
 
         // Display the result.
         System.out.println("Unique Array list: " + uniqueArr);
-        if (uniqueArr.size() >= k - 1) {
+        if (!uniqueArr.isEmpty() && uniqueArr.size() >= k - 1) {
             ans = uniqueArr.get(k - 1);
         }
         System.out.println("Distinct Unique String at a " + k + " position is: " + ans);
