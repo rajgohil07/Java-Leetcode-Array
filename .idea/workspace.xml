@@ -36,9 +36,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DIStringMatch">
-    <configuration name="CountTheNumberOfConsistentStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.CountTheNumberOfConsistentStrings" />
+  <component name="RunManager" selected="Application.CountPrefixesOfGivenString">
+    <configuration name="CountPrefixesOfGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.CountPrefixesOfGivenString" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -104,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountPrefixesOfGivenString" />
         <item itemvalue="Application.DIStringMatch" />
         <item itemvalue="Application.CountingWordsWithAGivenPrefix" />
         <item itemvalue="Application.FindFirstPalindromicStringInTheArray" />
         <item itemvalue="Application.SortThePeople" />
-        <item itemvalue="Application.CountTheNumberOfConsistentStrings" />
       </list>
     </recent_temporary>
   </component>
