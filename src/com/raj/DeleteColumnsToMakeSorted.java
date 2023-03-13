@@ -71,6 +71,6 @@ public class DeleteColumnsToMakeSorted {
         }
 
         // Display the result.
-        System.out.println("Required DI string is: " + count);
+        System.out.println("Number of delete columns to make sorted: " + count);
     }
 }
