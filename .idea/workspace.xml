@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Formatted the program to find the unique email addresses.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to the find Keyboard Row.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00018" summary="workspace.xml file changes.">
-      <created>1678008384569</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1678008384569</updated>
     </task>
     <task id="LOCAL-00019" summary="Increased the rotation limit to 1 to find the target array by rotating the provided array.">
       <created>1678011005218</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678733378797</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="Program to the find Keyboard Row.">
+      <created>1678774170068</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1678774170068</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Made changes in the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Added the description in the program to Check If Two String Arrays are Equivalent." />
     <MESSAGE value="Implemented the program to truncate sentence." />
@@ -508,7 +506,8 @@
     <MESSAGE value="Fix the various issues with the code to find the distinct unique character from the array." />
     <MESSAGE value="Program to find the shortest distance to a character." />
     <MESSAGE value="workspace.xml file changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml file changes." />
+    <MESSAGE value="Program to the find Keyboard Row." />
+    <option name="LAST_COMMIT_MESSAGE" value="Program to the find Keyboard Row." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -526,6 +525,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/CountTheNumberOfConsistentStrings.java</url>
           <line>40</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/KeyboardRow.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
