@@ -37,7 +37,7 @@ public class FindWordsThatCanBeFormedByCharacters {
             StringBuilder t = new StringBuilder(chars);
             boolean isValid = true;
             for (int i = 0; i < s.length(); i++) {
-                if (chars.contains(String.valueOf(s.charAt(i)))) {
+                if (t.toString().contains(String.valueOf(s.charAt(i)))) {
                     t.deleteCharAt(i);
                 } else {
                     isValid = false;

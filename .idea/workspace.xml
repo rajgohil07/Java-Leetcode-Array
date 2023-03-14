@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the leetcode description in the Program to the find Keyboard Row.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,27 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00019" summary="Increased the rotation limit to 1 to find the target array by rotating the provided array.">
-      <created>1678011005218</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1678011005218</updated>
-    </task>
-    <task id="LOCAL-00020" summary="Optimised the code to find the target array by rotating the provided array.">
-      <created>1678011616637</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1678011616637</updated>
-    </task>
-    <task id="LOCAL-00021" summary="workspace.xml changes">
-      <created>1678012835067</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1678012835067</updated>
     </task>
     <task id="LOCAL-00022" summary="Function to add n unique integers sum up to zero.">
       <created>1678128331680</created>
@@ -468,7 +446,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678774170068</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Have added the program to Find Words That Can Be Formed by Characters.">
+      <created>1678775662526</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1678775662526</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters.">
+      <created>1678775737756</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1678775737756</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters.">
+      <created>1678775902512</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1678775902512</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,9 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use of string builder in the program to Check If Two String Arrays are Equivalent." />
-    <MESSAGE value="Added the description in the program to Check If Two String Arrays are Equivalent." />
-    <MESSAGE value="Implemented the program to truncate sentence." />
     <MESSAGE value="Use of 2 append method instead of contact,in program to truncate sentence." />
     <MESSAGE value="Use of 2 append method instead of contact, in program to truncate sentence." />
     <MESSAGE value="Removed the extra space at the end of the string, in program to truncate sentence." />
@@ -508,7 +504,10 @@
     <MESSAGE value="Program to find the shortest distance to a character." />
     <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Program to the find Keyboard Row." />
-    <option name="LAST_COMMIT_MESSAGE" value="Program to the find Keyboard Row." />
+    <MESSAGE value="Have added the program to Find Words That Can Be Formed by Characters." />
+    <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
+    <MESSAGE value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
