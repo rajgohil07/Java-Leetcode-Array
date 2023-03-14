@@ -28,8 +28,8 @@ package com.raj;
 public class FindWordsThatCanBeFormedByCharacters {
     public static void main(String[] args) {
         // Initialization.
-        String[] words = new String[]{"cat", "bt", "hat", "tree"};
-        String chars = "atach";
+        String[] words = new String[]{"hello", "world", "leetcode"};
+        String chars = "welldonehoneyr";
         int ans = 0;
 
         // Logic.
@@ -37,8 +37,9 @@ public class FindWordsThatCanBeFormedByCharacters {
             StringBuilder t = new StringBuilder(chars);
             boolean isValid = true;
             for (int i = 0; i < s.length(); i++) {
-                if (t.toString().contains(String.valueOf(s.charAt(i)))) {
-                    t.deleteCharAt(i);
+                int charIndex = t.indexOf(String.valueOf(s.charAt(i)));
+                if (charIndex > -1) {
+                    t.deleteCharAt(charIndex);
                 } else {
                     isValid = false;
                     break;
