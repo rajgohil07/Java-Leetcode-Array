@@ -33,7 +33,7 @@ import java.util.ArrayList;
 
 public class KeyboardRow {
     public static void main(String[] args) {
-        // Initialization
+        // Initialization.
         String[] words = new String[]{"Hello", "Alaska", "Dad", "Peace"};
         ArrayList<String> ans = new ArrayList<>();
 

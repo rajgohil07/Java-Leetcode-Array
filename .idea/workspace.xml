@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Program to the find Keyboard Row.">
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have added the leetcode description in the Program to the find Keyboard Row.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +40,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.KeyboardRow">
-    <configuration name="KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.KeyboardRow" />
+  <component name="RunManager" selected="Application.FindWordsThatCanBeFormedByCharacters">
+    <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.FindWordsThatCanBeFormedByCharacters" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -53,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KthDistinctStringInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.KthDistinctStringInArray" />
+    <configuration name="KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.KeyboardRow" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
         <item itemvalue="Application.KeyboardRow" />
         <item itemvalue="Application.UniqueEmailAddresses" />
         <item itemvalue="Application.ShortestDistanceToCharacter" />
         <item itemvalue="Application.MaximumValueOfStringInArray" />
-        <item itemvalue="Application.KthDistinctStringInArray" />
       </list>
     </recent_temporary>
   </component>
