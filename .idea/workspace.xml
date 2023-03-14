@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="workspace.xml file changes.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/UniqueEmailAddresses.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Formatted the program to find the unique email addresses.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/KeyboardRow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,9 +40,9 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.UniqueEmailAddresses">
-    <configuration name="CountPrefixesOfGivenString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.CountPrefixesOfGivenString" />
+  <component name="RunManager" selected="Application.KeyboardRow">
+    <configuration name="KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.KeyboardRow" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KeyboardRow" />
         <item itemvalue="Application.UniqueEmailAddresses" />
         <item itemvalue="Application.ShortestDistanceToCharacter" />
         <item itemvalue="Application.MaximumValueOfStringInArray" />
         <item itemvalue="Application.KthDistinctStringInArray" />
-        <item itemvalue="Application.CountPrefixesOfGivenString" />
       </list>
     </recent_temporary>
   </component>
