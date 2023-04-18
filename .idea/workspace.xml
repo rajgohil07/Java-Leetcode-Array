@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters.">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/MergeStringsAlternately.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FindWordsThatCanBeFormedByCharacters">
+  <component name="RunManager" selected="Application.MergeStringsAlternately">
     <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindWordsThatCanBeFormedByCharacters" />
       <module name="ArrayLeetCodeQuestions" />
@@ -66,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumValueOfStringInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.MaximumValueOfStringInArray" />
+    <configuration name="MergeStringsAlternately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.MergeStringsAlternately" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeStringsAlternately" />
         <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
         <item itemvalue="Application.KeyboardRow" />
         <item itemvalue="Application.UniqueEmailAddresses" />
         <item itemvalue="Application.ShortestDistanceToCharacter" />
-        <item itemvalue="Application.MaximumValueOfStringInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Have made values unique to find n unique integers sum up to zero.">
-      <created>1678128594224</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1678128594224</updated>
     </task>
     <task id="LOCAL-00024" summary="workspace.xml changes">
       <created>1678129607496</created>
@@ -467,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678776069309</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters.">
+      <created>1678776348332</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1678776348332</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use of 2 append method instead of contact,in program to truncate sentence." />
     <MESSAGE value="Use of 2 append method instead of contact, in program to truncate sentence." />
     <MESSAGE value="Removed the extra space at the end of the string, in program to truncate sentence." />
     <MESSAGE value="Program to display unique morse code." />
@@ -507,7 +507,8 @@
     <MESSAGE value="Have added the program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
+    <MESSAGE value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
