@@ -42,7 +42,7 @@ public class LastStoneWeight {
 
         // Storing the data to the array list.
         for (int i : stones) {
-            ans.add(stones[i]);
+            ans.add(i);
         }
 
         // Logic.
