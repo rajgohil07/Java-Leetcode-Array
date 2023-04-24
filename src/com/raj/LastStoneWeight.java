@@ -41,8 +41,8 @@ public class LastStoneWeight {
         ArrayList<Integer> ans = new ArrayList<>();
 
         // Storing the data to the array list.
-        for (int i = 0; i < stones.length; i++) {
-            ans.add(Integer.valueOf(stones[i]));
+        for (int i : stones) {
+            ans.add(stones[i]);
         }
 
         // Logic.
