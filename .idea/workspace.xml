@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Code correction: Have implemented the program to find the last stone weight.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/LastStoneWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/LastStoneWeight.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Code Optimization: Have implemented the program to find the last stone weight." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +37,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LastStoneWeight">
+  <component name="RunManager" selected="Application.SubdomainVisitCount">
     <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindWordsThatCanBeFormedByCharacters" />
       <module name="ArrayLeetCodeQuestions" />
@@ -93,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueEmailAddresses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.UniqueEmailAddresses" />
+    <configuration name="SubdomainVisitCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.SubdomainVisitCount" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubdomainVisitCount" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.MergeStringsAlternately" />
         <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
         <item itemvalue="Application.KeyboardRow" />
-        <item itemvalue="Application.UniqueEmailAddresses" />
       </list>
     </recent_temporary>
   </component>
