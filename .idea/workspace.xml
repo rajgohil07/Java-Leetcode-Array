@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/MergeStringsAlternately.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raj/LastStoneWeight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MergeStringsAlternately">
+  <component name="RunManager" selected="Application.LastStoneWeight">
     <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindWordsThatCanBeFormedByCharacters" />
       <module name="ArrayLeetCodeQuestions" />
@@ -67,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeStringsAlternately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.MergeStringsAlternately" />
+    <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.LastStoneWeight" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestDistanceToCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.ShortestDistanceToCharacter" />
+    <configuration name="MergeStringsAlternately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.MergeStringsAlternately" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.MergeStringsAlternately" />
         <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
         <item itemvalue="Application.KeyboardRow" />
         <item itemvalue="Application.UniqueEmailAddresses" />
-        <item itemvalue="Application.ShortestDistanceToCharacter" />
       </list>
     </recent_temporary>
   </component>
