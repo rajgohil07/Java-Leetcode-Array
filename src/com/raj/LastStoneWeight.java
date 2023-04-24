@@ -32,7 +32,7 @@ Constraints:
 package com.raj;
 
 import java.util.ArrayList;
-import java.util.Collections;
+import java.util.Comparator;
 
 public class LastStoneWeight {
     public static void main(String[] args) {
@@ -47,12 +47,14 @@ public class LastStoneWeight {
 
         // Logic.
         while (ans.size() >= 2) {
-            Collections.sort(ans);
-            int lastChar = ans.get(ans.size() - 1);
-            int secondLastChar = ans.get(ans.size() - 2);
-            int val = Math.abs(lastChar - secondLastChar);
-            ans.remove(ans.size() - 1);
-            ans.set(ans.size() - 1, val);
+            // Sort the ArrayList in descending order.
+            ans.sort(Comparator.reverseOrder());
+            int firstVal = ans.get(0);
+            int secondVal = ans.get(1);
+            // Get the positive difference.
+            int val = Math.abs(firstVal - secondVal);
+            ans.remove(0);
+            ans.set(0, val);
         }
 
         // Display the result.

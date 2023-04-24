@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/LastStoneWeight.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Code correction: Have implemented the program to find the last stone weight.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/LastStoneWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/LastStoneWeight.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,27 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00024" summary="workspace.xml changes">
-      <created>1678129607496</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1678129607496</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Added the space.">
-      <created>1678131783814</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1678131783814</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Have made changes to pass the failed test cases.">
-      <created>1678133160673</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1678133160673</updated>
     </task>
     <task id="LOCAL-00027" summary="Used the different example to find the luckiest number from the mxn matrix.">
       <created>1678133492985</created>
@@ -467,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1678776348332</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="Have implemented the program to find the last stone weight.">
+      <created>1682363149859</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1682363149859</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Code correction: Have implemented the program to find the last stone weight.">
+      <created>1682363197998</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1682363197998</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Code correction: Have implemented the program to find the last stone weight.">
+      <created>1682363262145</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1682363262145</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use of 2 append method instead of contact, in program to truncate sentence." />
-    <MESSAGE value="Removed the extra space at the end of the string, in program to truncate sentence." />
     <MESSAGE value="Program to display unique morse code." />
     <MESSAGE value="Program to display count the number of consistent strings." />
     <MESSAGE value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
@@ -507,7 +506,9 @@
     <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
+    <MESSAGE value="Have implemented the program to find the last stone weight." />
+    <MESSAGE value="Code correction: Have implemented the program to find the last stone weight." />
+    <option name="LAST_COMMIT_MESSAGE" value="Code correction: Have implemented the program to find the last stone weight." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
