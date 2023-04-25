@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find the Goal parse interpretation." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="workspace.xml file changes.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/SplitAStringInBalancedStrings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,20 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GoalParserInterpretation">
-    <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.FindWordsThatCanBeFormedByCharacters" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.SplitAStringInBalancedStrings">
     <configuration name="GoalParserInterpretation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.GoalParserInterpretation" />
       <module name="ArrayLeetCodeQuestions" />
@@ -90,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SplitAStringInBalancedStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.SplitAStringInBalancedStrings" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SubdomainVisitCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.SubdomainVisitCount" />
       <module name="ArrayLeetCodeQuestions" />
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SplitAStringInBalancedStrings" />
         <item itemvalue="Application.GoalParserInterpretation" />
         <item itemvalue="Application.SubdomainVisitCount" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.MergeStringsAlternately" />
-        <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
       </list>
     </recent_temporary>
   </component>
@@ -121,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00028" summary="Have made changes to the condition.">
-      <created>1678188209785</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1678188209785</updated>
     </task>
     <task id="LOCAL-00029" summary="Have made changes to the condition to set the correct value into the new RxC matrix.">
       <created>1678189030943</created>
@@ -465,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682452037507</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="workspace.xml file changes.">
+      <created>1682452681306</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1682452681307</updated>
+    </task>
+    <option name="localTasksCounter" value="78" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -496,7 +499,6 @@
     <MESSAGE value="Changes in logs to find the distinct unique character from the array." />
     <MESSAGE value="Fix the various issues with the code to find the distinct unique character from the array." />
     <MESSAGE value="Program to find the shortest distance to a character." />
-    <MESSAGE value="workspace.xml file changes." />
     <MESSAGE value="Program to the find Keyboard Row." />
     <MESSAGE value="Have added the program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
@@ -505,7 +507,8 @@
     <MESSAGE value="Have implemented the program to find the last stone weight." />
     <MESSAGE value="Code correction: Have implemented the program to find the last stone weight." />
     <MESSAGE value="Have implemented the program to find the Goal parse interpretation." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the Goal parse interpretation." />
+    <MESSAGE value="workspace.xml file changes." />
+    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml file changes." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
