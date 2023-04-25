@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Code Optimization: Have implemented the program to find the last stone weight." />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Code Optimization: Have implemented the program to find the last stone weight.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/GoalParserInterpretation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SubdomainVisitCount">
+  <component name="RunManager" selected="Application.GoalParserInterpretation">
     <configuration name="FindWordsThatCanBeFormedByCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.FindWordsThatCanBeFormedByCharacters" />
       <module name="ArrayLeetCodeQuestions" />
@@ -51,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyboardRow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.KeyboardRow" />
+    <configuration name="GoalParserInterpretation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.GoalParserInterpretation" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GoalParserInterpretation" />
         <item itemvalue="Application.SubdomainVisitCount" />
         <item itemvalue="Application.LastStoneWeight" />
         <item itemvalue="Application.MergeStringsAlternately" />
         <item itemvalue="Application.FindWordsThatCanBeFormedByCharacters" />
-        <item itemvalue="Application.KeyboardRow" />
       </list>
     </recent_temporary>
   </component>
