@@ -53,7 +53,7 @@ public class RemovingStarsFromAString {
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == '*') {
                 s.delete(i - 1, i + 1);
-                return getStringWithoutStars(s);
+                i -= 2;
             }
         }
         return s.toString();
