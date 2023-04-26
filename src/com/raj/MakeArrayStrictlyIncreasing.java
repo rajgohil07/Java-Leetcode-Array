@@ -67,6 +67,11 @@ public class MakeArrayStrictlyIncreasing {
                         for (int j : arr2) {
                             if (arr1[i - 1] < j) {
                                 if(arr1[i] == j){
+                                    /*
+                                    if new value and old value are same
+                                     then change the value to (index + 1)
+                                     i.e. (i + 1)
+                                     */
                                     break;
                                 }
                                 arr1[i] = j;
