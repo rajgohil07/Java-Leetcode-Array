@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00035" summary="Implemented the program decode the message.">
-      <created>1678280258439</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1678280258439</updated>
     </task>
     <task id="LOCAL-00036" summary="Added the comments for program to decode the message.">
       <created>1678280369754</created>
@@ -468,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682515776955</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <created>1682535839366</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1682535839367</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to find DI string match." />
     <MESSAGE value="Have made changes to the program to find DI string match." />
     <MESSAGE value="Implemented the program to delete columns to make sorted." />
     <MESSAGE value="Changed the display result string." />
@@ -508,7 +506,8 @@
     <MESSAGE value="Have implemented the program to add the parentheses to make the valid parentheses." />
     <MESSAGE value="Optimised the solution: Have implemented the program to find the final string after removing the all stars." />
     <MESSAGE value="Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
+    <MESSAGE value="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -536,11 +535,6 @@
           <url>file://$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java</url>
           <line>35</line>
           <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

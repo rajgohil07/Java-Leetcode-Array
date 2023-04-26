@@ -42,38 +42,70 @@ public class MakeArrayStrictlyIncreasing {
         // Logic.
         // Sort the option array.
         Arrays.sort(arr2);
-        for (int i = 1; i < arr1.length - 1; i++) {
-            if (arr1[i] >= arr1[i + 1]) {
-                boolean isValueFounded = false;
-                if (!isInitialValueChanged) {
-                    for (int j = 0; j < arr2.length; j++) {
-                        if (arr1[i - 1] < arr2[j]) {
-                            arr1[i] = arr2[j];
-                            isValueFounded = true;
-                            isInitialValueChanged = true;
-                            i--;
-                            ans++;
-                            break;
-                        }
-                    }
-                }
-                if (!isValueFounded) {
-                    for (int j = 0; j < arr2.length; j++) {
-                        if (arr1[i] < arr2[j]) {
-                            arr1[i + 1] = arr2[j];
-                            isValueFounded = true;
-                            isInitialValueChanged = false;
-                            ans++;
-                            break;
-                        }
-                    }
-                }
-                if (!isValueFounded) {
-                    ans = -1;
+        // Check for the first index.
+        if(arr1[0]>=arr2[1]){
+            boolean isValueFounded = false;
+            for (int j = 0; j < arr2.length; j++) {
+                if (arr1[ 1] > arr2[j]) {
+                    arr1[0] = arr2[j];
+                    isValueFounded = true;
+                    ans++;
                     break;
                 }
             }
+            if(!isValueFounded){
+                ans=-1;
+            }
+
+            // Check for the last index.
+            if(ans!=-1 && arr1[arr1.length-2]>=arr1[arr1.length-1]){
+                 isValueFounded = false;
+                for (int j = 0; j < arr2.length; j++) {
+                    if (arr1[arr1.length-2] < arr2[j]) {
+                        arr1[arr1.length-1] = arr2[j];
+                        isValueFounded = true;
+                        ans++;
+                        break;
+                    }
+                }
+                if(!isValueFounded){
+                    ans=-1;
+                }
+            }
         }
+
+       if(ans!=-1){ for (int i = 1; i < arr1.length - 1; i++) {
+           if (arr1[i] >= arr1[i + 1]) {
+               boolean isValueFounded = false;
+               if (!isInitialValueChanged) {
+                   for (int j = 0; j < arr2.length; j++) {
+                       if (arr1[i - 1] < arr2[j]) {
+                           arr1[i] = arr2[j];
+                           isValueFounded = true;
+                           isInitialValueChanged = true;
+                           i--;
+                           ans++;
+                           break;
+                       }
+                   }
+               }
+               if (!isValueFounded) {
+                   for (int j = 0; j < arr2.length; j++) {
+                       if (arr1[i] < arr2[j]) {
+                           arr1[i + 1] = arr2[j];
+                           isValueFounded = true;
+                           isInitialValueChanged = false;
+                           ans++;
+                           break;
+                       }
+                   }
+               }
+               if (!isValueFounded) {
+                   ans = -1;
+                   break;
+               }
+           }
+       }}
 
         // Display the result.
         if (ans > 0) {
