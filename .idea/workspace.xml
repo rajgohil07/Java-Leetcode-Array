@@ -124,27 +124,6 @@
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
     </task>
-    <task id="LOCAL-00036" summary="Added the comments for program to decode the message.">
-      <created>1678280369754</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1678280369754</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Have implemented the program for the let and right sum differences.">
-      <created>1678283052325</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1678283052325</updated>
-    </task>
-    <task id="LOCAL-00038" summary="Have implemented the program to count the jewels and stones.">
-      <created>1678426464953</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1678426464953</updated>
-    </task>
     <task id="LOCAL-00039" summary="Have implemented the program to find final value of variable after performing operations.">
       <created>1678426739031</created>
       <option name="number" value="00039" />
@@ -467,7 +446,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682535839367</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <created>1682536932205</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1682536932205</updated>
+    </task>
+    <task id="LOCAL-00086" summary="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <created>1682537112723</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537112723</updated>
+    </task>
+    <task id="LOCAL-00087" summary="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <created>1682537275831</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1682537275831</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

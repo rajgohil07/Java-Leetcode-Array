@@ -34,8 +34,8 @@ import java.util.Arrays;
 public class MakeArrayStrictlyIncreasing {
     public static void main(String[] args) {
         // Initialization.
-        int[] arr1 = {1, 5, 3, 6, 7};
-        int[] arr2 = {4, 3, 1};
+        int[] arr1 = {0, 11, 6, 1, 4, 3};
+        int[] arr2 = {5, 4, 11, 10, 1, 0};
         boolean isInitialValueChanged = false;
         int ans = 0;
 
@@ -56,23 +56,23 @@ public class MakeArrayStrictlyIncreasing {
             if (!isValueFounded) {
                 ans = -1;
             }
-
-            // Check for the last index.
-            if (ans != -1 && arr1[arr1.length - 2] >= arr1[arr1.length - 1]) {
-                isValueFounded = false;
-                for (int j : arr2) {
-                    if (arr1[arr1.length - 2] < j) {
-                        arr1[arr1.length - 1] = j;
-                        isValueFounded = true;
-                        ans++;
-                        break;
-                    }
-                }
-                if (!isValueFounded) {
-                    ans = -1;
+        }
+        // Check for the last index.
+        if (ans != -1 && arr1[arr1.length - 2] >= arr1[arr1.length - 1]) {
+            boolean isValueFounded = false;
+            for (int j : arr2) {
+                if (arr1[arr1.length - 2] < j) {
+                    arr1[arr1.length - 1] = j;
+                    isValueFounded = true;
+                    ans++;
+                    break;
                 }
             }
+            if (!isValueFounded) {
+                ans = -1;
+            }
         }
+
 
         if (ans != -1) {
             for (int i = 1; i < arr1.length - 1; i++) {
