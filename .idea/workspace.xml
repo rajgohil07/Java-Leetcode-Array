@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="workspace.xml file changes.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/SplitAStringInBalancedStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raj/AddDigits.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/raj/SplitAStringInBalancedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/SplitAStringInBalancedStrings.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SplitAStringInBalancedStrings">
+  <component name="RunManager" selected="Application.AddDigits">
+    <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.AddDigits" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GoalParserInterpretation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.GoalParserInterpretation" />
       <module name="ArrayLeetCodeQuestions" />
@@ -56,19 +69,6 @@
     </configuration>
     <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.LastStoneWeight" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeStringsAlternately" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.MergeStringsAlternately" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.SplitAStringInBalancedStrings" />
         <item itemvalue="Application.GoalParserInterpretation" />
         <item itemvalue="Application.SubdomainVisitCount" />
         <item itemvalue="Application.LastStoneWeight" />
-        <item itemvalue="Application.MergeStringsAlternately" />
       </list>
     </recent_temporary>
   </component>

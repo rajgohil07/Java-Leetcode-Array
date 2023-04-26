@@ -40,7 +40,6 @@ public class SplitAStringInBalancedStrings {
         int LCounter = 0;
         int ans = 0;
 
-
         // Logic.
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 'R') {
