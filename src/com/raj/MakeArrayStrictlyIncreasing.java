@@ -66,6 +66,9 @@ public class MakeArrayStrictlyIncreasing {
                     if (initialValueChangedIndex != i) {
                         for (int j : arr2) {
                             if (arr1[i - 1] < j) {
+                                if(arr1[i] == j){
+                                    break;
+                                }
                                 arr1[i] = j;
                                 isValueFounded = true;
                                 initialValueChangedIndex = i;
