@@ -57,25 +57,10 @@ public class MakeArrayStrictlyIncreasing {
                 ans = -1;
             }
         }
-        // Check for the last index.
-        if (ans != -1 && arr1[arr1.length - 2] >= arr1[arr1.length - 1]) {
-            boolean isValueFounded = false;
-            for (int j : arr2) {
-                if (arr1[arr1.length - 2] < j) {
-                    arr1[arr1.length - 1] = j;
-                    isValueFounded = true;
-                    ans++;
-                    break;
-                }
-            }
-            if (!isValueFounded) {
-                ans = -1;
-            }
-        }
-
 
         if (ans != -1) {
             for (int i = 1; i < arr1.length - 1; i++) {
+
                 if (arr1[i] >= arr1[i + 1]) {
                     boolean isValueFounded = false;
                     if (initialValueChangedIndex != i) {
@@ -105,6 +90,22 @@ public class MakeArrayStrictlyIncreasing {
                         break;
                     }
                 }
+            }
+        }
+
+        // Check for the last index.
+        if (ans != -1 && arr1[arr1.length - 2] >= arr1[arr1.length - 1]) {
+            boolean isValueFounded = false;
+            for (int j : arr2) {
+                if (arr1[arr1.length - 2] < j) {
+                    arr1[arr1.length - 1] = j;
+                    isValueFounded = true;
+                    ans++;
+                    break;
+                }
+            }
+            if (!isValueFounded) {
+                ans = -1;
             }
         }
 
