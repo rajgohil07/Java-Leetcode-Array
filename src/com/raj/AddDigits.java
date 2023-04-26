@@ -35,6 +35,7 @@ public class AddDigits {
         System.out.println("The sum of the provided digit to the one digit is: " + num);
     }
 
+    // Recursive function to call itself until it gets the answer in one digit.
     private static int provideTotalToOneDigit(int num) {
         int ans = 0;
         if (num < 10) {
