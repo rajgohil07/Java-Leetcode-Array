@@ -27,13 +27,12 @@ public class AddDigits {
     public static void main(String[] args) {
         // Initialization.
         int num = 111;
-        int sum = 0;
 
         // Logic.
-        sum = provideTotalToOneDigit(num);
+        num = provideTotalToOneDigit(num);
 
         // Display the result.
-        System.out.println("The sum of the provided digit to the one digit is: " + sum);
+        System.out.println("The sum of the provided digit to the one digit is: " + num);
     }
 
     private static int provideTotalToOneDigit(int num) {
