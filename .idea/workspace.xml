@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="workspace.xml file changes.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/AddDigits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/raj/SplitAStringInBalancedStrings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/SplitAStringInBalancedStrings.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Added the comment in the code: Have implemented the program to add the digits to the one digit.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/MinimumAddToMakeParenthesesValid.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AddDigits">
+  <component name="RunManager" selected="Application.MinimumAddToMakeParenthesesValid">
     <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.AddDigits" />
       <module name="ArrayLeetCodeQuestions" />
@@ -67,8 +66,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastStoneWeight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.LastStoneWeight" />
+    <configuration name="MinimumAddToMakeParenthesesValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.MinimumAddToMakeParenthesesValid" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
         <item itemvalue="Application.AddDigits" />
         <item itemvalue="Application.SplitAStringInBalancedStrings" />
         <item itemvalue="Application.GoalParserInterpretation" />
         <item itemvalue="Application.SubdomainVisitCount" />
-        <item itemvalue="Application.LastStoneWeight" />
       </list>
     </recent_temporary>
   </component>
@@ -124,27 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00029" summary="Have made changes to the condition to set the correct value into the new RxC matrix.">
-      <created>1678189030943</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1678189030943</updated>
-    </task>
-    <task id="LOCAL-00030" summary="Have made changes to the condition to set the correct value into the new RxC matrix.">
-      <created>1678189535709</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1678189535709</updated>
-    </task>
-    <task id="LOCAL-00031" summary="Have made changes to the condition to set the correct value into the new RxC matrix.">
-      <created>1678190369723</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1678190369723</updated>
     </task>
     <task id="LOCAL-00032" summary="Have added the program to remove the duplicate values from the array and return it.">
       <created>1678198553718</created>
@@ -468,7 +446,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682452681307</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="Have implemented the program to add the digits to the to digit.">
+      <created>1682493003799</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1682493003800</updated>
+    </task>
+    <task id="LOCAL-00079" summary="Optimized the code: Have implemented the program to add the digits to the one digit.">
+      <created>1682493085487</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1682493085487</updated>
+    </task>
+    <task id="LOCAL-00080" summary="Added the comment in the code: Have implemented the program to add the digits to the one digit.">
+      <created>1682493199035</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1682493199035</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,9 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Program to display count the number of consistent strings." />
-    <MESSAGE value="Use of enhanced foreach loop for the program to display count the number of consistent strings." />
-    <MESSAGE value="Implemented the program to sort the person array with its height in the descending order." />
     <MESSAGE value="Have added the leetcode description for the Sort the People problem." />
     <MESSAGE value="Have implemented the program to Find First Palindromic String in the Array." />
     <MESSAGE value="Have implemented the program to find number of strings in words that contain pref as a prefix." />
@@ -508,7 +504,10 @@
     <MESSAGE value="Code correction: Have implemented the program to find the last stone weight." />
     <MESSAGE value="Have implemented the program to find the Goal parse interpretation." />
     <MESSAGE value="workspace.xml file changes." />
-    <option name="LAST_COMMIT_MESSAGE" value="workspace.xml file changes." />
+    <MESSAGE value="Have implemented the program to add the digits to the to digit." />
+    <MESSAGE value="Optimized the code: Have implemented the program to add the digits to the one digit." />
+    <MESSAGE value="Added the comment in the code: Have implemented the program to add the digits to the one digit." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the comment in the code: Have implemented the program to add the digits to the one digit." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
