@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Optimised the solution [Best results]: Have implemented the program to find the final string after removing the all stars.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00034" summary="Implemented the program to shuffle the string.">
-      <created>1678277885797</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1678277885798</updated>
     </task>
     <task id="LOCAL-00035" summary="Implemented the program decode the message.">
       <created>1678280258439</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682507533163</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <created>1682515776955</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1682515776955</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to find number of strings in words that contain pref as a prefix." />
     <MESSAGE value="Have implemented the program to find DI string match." />
     <MESSAGE value="Have made changes to the program to find DI string match." />
     <MESSAGE value="Implemented the program to delete columns to make sorted." />
@@ -507,7 +506,8 @@
     <MESSAGE value="Added the comment in the code: Have implemented the program to add the digits to the one digit." />
     <MESSAGE value="Have implemented the program to add the parentheses to make the valid parentheses." />
     <MESSAGE value="Optimised the solution: Have implemented the program to find the final string after removing the all stars." />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimised the solution: Have implemented the program to find the final string after removing the all stars." />
+    <MESSAGE value="Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

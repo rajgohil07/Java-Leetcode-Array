@@ -33,8 +33,8 @@ public class MakeArrayStrictlyIncreasing {
     public static void main(String[] args) {
         // Initialization.
         int[] arr1 = {1, 5, 3, 6, 7};
-        int[] arr2 = {1, 3, 2, 4};
-        int ans = 1;
+        int[] arr2 = {4, 3, 1};
+        int ans = 0;
 
         // Logic.
         for (int i = 0; i < arr1.length - 1; i++) {
@@ -44,18 +44,19 @@ public class MakeArrayStrictlyIncreasing {
                     for (int j : arr2) {
                         if (arr1[i + 1] > j) {
                             valueFound = true;
+                            ans++;
                             break;
                         }
                     }
                 } else {
                     for (int j : arr2) {
-                        if (arr1[i - 1] < j && arr1[i + 1] > j) {
+                        if (arr1[i - 1] <= j && arr1[i + 1] > j) {
                             valueFound = true;
+                            ans++;
                             break;
                         }
                     }
                 }
-
                 if (!valueFound) {
                     ans = -1;
                 }
@@ -67,6 +68,7 @@ public class MakeArrayStrictlyIncreasing {
             for (int j : arr2) {
                 if (arr1[arr1.length - 2] < j) {
                     valueFound = true;
+                    ans++;
                     break;
                 }
             }
@@ -76,8 +78,9 @@ public class MakeArrayStrictlyIncreasing {
         }
 
         // Display the result.
-        if (ans == 1) {
+        if (ans > 0) {
             System.out.println("Yes, array can be made strictly increasing using the values from another array.");
+            System.out.println("Operation performed: " + ans);
         } else {
             System.out.println("No, array can not be made strictly increasing using the values from another array.");
         }
