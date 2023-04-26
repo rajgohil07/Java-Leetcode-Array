@@ -43,7 +43,7 @@ public class MakeArrayStrictlyIncreasing {
         // Sort the option array.
         Arrays.sort(arr2);
         // Check for the first index.
-        if (arr1[0] >= arr2[1]) {
+        if (arr1[0] >= arr1[1]) {
             boolean isValueFounded = false;
             for (int j : arr2) {
                 if (arr1[1] > j) {
