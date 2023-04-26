@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find whether the array can be made strictly increasing using the values from another array.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -538,8 +539,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/raj/MakeArrayStrictlyIncreasing.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="23" />
+          <line>44</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

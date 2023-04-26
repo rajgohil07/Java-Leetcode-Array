@@ -29,51 +29,49 @@ Constraints:
  */
 package com.raj;
 
+import java.util.Arrays;
+
 public class MakeArrayStrictlyIncreasing {
     public static void main(String[] args) {
         // Initialization.
         int[] arr1 = {1, 5, 3, 6, 7};
         int[] arr2 = {4, 3, 1};
+        boolean isInitialValueChanged = false;
         int ans = 0;
 
         // Logic.
-        for (int i = 0; i < arr1.length - 1; i++) {
+        // Sort the option array.
+        Arrays.sort(arr2);
+        for (int i = 1; i < arr1.length - 1; i++) {
             if (arr1[i] >= arr1[i + 1]) {
-                boolean valueFound = false;
-                if (i == 0) {
-                    for (int j : arr2) {
-                        if (arr1[i + 1] > j) {
-                            valueFound = true;
-                            ans++;
-                            break;
-                        }
-                    }
-                } else {
-                    for (int j : arr2) {
-                        if (arr1[i - 1] <= j && arr1[i + 1] > j) {
-                            valueFound = true;
+                boolean isValueFounded = false;
+                if (!isInitialValueChanged) {
+                    for (int j = 0; j < arr2.length; j++) {
+                        if (arr1[i - 1] < arr2[j]) {
+                            arr1[i] = arr2[j];
+                            isValueFounded = true;
+                            isInitialValueChanged = true;
+                            i--;
                             ans++;
                             break;
                         }
                     }
                 }
-                if (!valueFound) {
+                if (!isValueFounded) {
+                    for (int j = 0; j < arr2.length; j++) {
+                        if (arr1[i] < arr2[j]) {
+                            arr1[i + 1] = arr2[j];
+                            isValueFounded = true;
+                            isInitialValueChanged = false;
+                            ans++;
+                            break;
+                        }
+                    }
+                }
+                if (!isValueFounded) {
                     ans = -1;
-                }
-            }
-        }
-
-        if (ans == 1 && arr1[arr1.length - 2] >= arr1[arr1.length - 1]) {
-            boolean valueFound = false;
-            for (int j : arr2) {
-                if (arr1[arr1.length - 2] < j) {
-                    valueFound = true;
-                    ans++;
                     break;
                 }
-            }
-            if (!valueFound) {
-                ans = -1;
             }
         }
 
