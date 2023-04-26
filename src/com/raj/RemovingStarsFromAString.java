@@ -40,22 +40,23 @@ public class RemovingStarsFromAString {
     public static void main(String[] args) {
         // Initialization.
         String s = "leet**cod*e";
-        StringBuilder ans = new StringBuilder(s);
 
         // Logic.
-        s = getStringWithoutStars(ans);
+        s = getStringWithoutStars(s);
 
         // Display the result.
         System.out.println("The final string after removing the each * is: " + s);
     }
 
-    private static String getStringWithoutStars(StringBuilder s) {
+    private static String getStringWithoutStars(String s) {
+        StringBuilder ans = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
-            if (s.charAt(i) == '*') {
-                s.delete(i - 1, i + 1);
-                i -= 2;
+            if (s.charAt(i) != '*') {
+                ans.append(s.charAt(i));
+            } else {
+                ans.deleteCharAt(ans.length() - 1);
             }
         }
-        return s.toString();
+        return ans.toString();
     }
 }

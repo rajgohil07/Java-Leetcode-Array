@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to add the parentheses to make the valid parentheses.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/RemovingStarsFromAString.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Optimised the solution: Have implemented the program to find the final string after removing the all stars.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/RemovingStarsFromAString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/RemovingStarsFromAString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,13 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00033" summary="Removed the unused import in the program to remove the duplicate values from the array and return it.">
-      <created>1678198580638</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1678198580638</updated>
     </task>
     <task id="LOCAL-00034" summary="Implemented the program to shuffle the string.">
       <created>1678277885797</created>
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682496501963</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="Optimised the solution: Have implemented the program to find the final string after removing the all stars.">
+      <created>1682507533163</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1682507533163</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have implemented the program to Find First Palindromic String in the Array." />
     <MESSAGE value="Have implemented the program to find number of strings in words that contain pref as a prefix." />
     <MESSAGE value="Have implemented the program to find DI string match." />
     <MESSAGE value="Have made changes to the program to find DI string match." />
@@ -507,7 +506,8 @@
     <MESSAGE value="Optimized the code: Have implemented the program to add the digits to the one digit." />
     <MESSAGE value="Added the comment in the code: Have implemented the program to add the digits to the one digit." />
     <MESSAGE value="Have implemented the program to add the parentheses to make the valid parentheses." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to add the parentheses to make the valid parentheses." />
+    <MESSAGE value="Optimised the solution: Have implemented the program to find the final string after removing the all stars." />
+    <option name="LAST_COMMIT_MESSAGE" value="Optimised the solution: Have implemented the program to find the final string after removing the all stars." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -535,6 +535,11 @@
           <url>file://$PROJECT_DIR$/src/com/raj/FindWordsThatCanBeFormedByCharacters.java</url>
           <line>35</line>
           <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/raj/RemovingStarsFromAString.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
