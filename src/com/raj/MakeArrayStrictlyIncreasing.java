@@ -36,7 +36,7 @@ public class MakeArrayStrictlyIncreasing {
         // Initialization.
         int[] arr1 = {0, 11, 6, 1, 4, 3};
         int[] arr2 = {5, 4, 11, 10, 1, 0};
-        boolean isInitialValueChanged = false;
+        int initialValueChangedIndex = 0;
         int ans = 0;
 
         // Logic.
@@ -78,12 +78,12 @@ public class MakeArrayStrictlyIncreasing {
             for (int i = 1; i < arr1.length - 1; i++) {
                 if (arr1[i] >= arr1[i + 1]) {
                     boolean isValueFounded = false;
-                    if (!isInitialValueChanged) {
+                    if (initialValueChangedIndex != i) {
                         for (int j : arr2) {
                             if (arr1[i - 1] < j) {
                                 arr1[i] = j;
                                 isValueFounded = true;
-                                isInitialValueChanged = true;
+                                initialValueChangedIndex = i;
                                 i--;
                                 ans++;
                                 break;
@@ -95,7 +95,6 @@ public class MakeArrayStrictlyIncreasing {
                             if (arr1[i] < j) {
                                 arr1[i + 1] = j;
                                 isValueFounded = true;
-                                isInitialValueChanged = false;
                                 ans++;
                                 break;
                             }
