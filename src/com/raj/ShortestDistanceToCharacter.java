@@ -30,6 +30,7 @@ import java.util.Arrays;
 
 public class ShortestDistanceToCharacter {
     public static void main(String[] args) {
+        // Initialization.
         String s = "loveleetcode";
         char f = 'e';
         int l = s.length();
