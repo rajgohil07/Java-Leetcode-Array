@@ -22,6 +22,7 @@ public class ArrangingCoins {
     public static void main(String[] args) {
         // Initialization.
         int n = 5;
+        int temp=n;
         int incrementer = 1;
 
         // Logic.
@@ -29,12 +30,13 @@ public class ArrangingCoins {
             n = n - incrementer;
             incrementer++;
         }
-        incrementer--;
         if (n < 0) {
-            incrementer--;
+            incrementer -= 2;
+        } else {
+            incrementer -= 1;
         }
 
         // Display the result.
-        System.out.println("incrementer = " + incrementer);
+        System.out.println(incrementer + " perfect rows can be created with the " + temp + " coins.");
     }
 }
