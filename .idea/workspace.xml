@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:.">
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
       <change beforePath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,20 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Removed the extra space at the end of the string, in program to truncate sentence.">
-      <created>1678430072346</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1678430072346</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Program to display count the number of consistent strings.">
-      <created>1678435795696</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1678435795696</updated>
     </task>
     <task id="LOCAL-00051" summary="Use of enhanced foreach loop for the program to display count the number of consistent strings.">
       <created>1678435875668</created>
@@ -467,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682925297249</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="[Fixed the invalid string]: Have implemented the program to find the final string after removing all the occurrences of a substring:.">
+      <created>1682925804375</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1682925804375</updated>
+    </task>
+    <task id="LOCAL-00099" summary="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
+      <created>1682925854315</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1682925854315</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,8 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have added the program to find the distinct unique character from the array." />
-    <MESSAGE value="Removed the logs to find the distinct unique character from the array." />
     <MESSAGE value="Changes in logs to find the distinct unique character from the array." />
     <MESSAGE value="Fix the various issues with the code to find the distinct unique character from the array." />
     <MESSAGE value="Program to find the shortest distance to a character." />
@@ -507,7 +505,9 @@
     <MESSAGE value="[Optimized the result]: Have implemented the program to find the complete arranging coins." />
     <MESSAGE value="Have implemented the program to find the final string after removing all the occurrences of a substring:." />
     <MESSAGE value="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
+    <MESSAGE value="[Fixed the invalid string]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
+    <MESSAGE value="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

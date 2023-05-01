@@ -12,20 +12,18 @@ public class RemoveAllOccurrencesOfASubstring {
         StringBuilder ans = new StringBuilder(s);
 
         // Logic.
-        recursiveStringReplace(ans, part, 0);
+        recursiveStringReplace(ans, part);
 
         // Display the result.
         System.out.println("The final string after removing all the occurrences of a substring: " + ans + ".");
     }
 
     // Recursive call the function itself to replace the string with the part.
-    private static void recursiveStringReplace(StringBuilder s, String part, int startIndex) {
-        for (int i = startIndex; i <= s.length() - part.length(); i++) {
-            if (s.substring(i, i + part.length()).equals(part)) {
-                s.delete(i, i + part.length());
-                startIndex = Math.max(i - part.length(), 0);
-                recursiveStringReplace(s, part, startIndex);
-            }
+    private static void recursiveStringReplace(StringBuilder s, String part) {
+        int subStringStartIndex = s.indexOf(part);
+        if (subStringStartIndex != -1) {
+            s.delete(subStringStartIndex, subStringStartIndex + part.length());
+            recursiveStringReplace(s, part);
         }
     }
 }
