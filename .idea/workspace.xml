@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find the complete arranging coins.">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/ArrangingCoins.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/ArrangingCoins.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Optimized the result]: Have implemented the program to find the complete arranging coins.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,20 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrangingCoins">
-    <configuration name="AddDigits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.AddDigits" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveAllOccurrencesOfASubstring">
     <configuration name="ArrangingCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.ArrangingCoins" />
       <module name="ArrayLeetCodeQuestions" />
@@ -92,6 +80,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RemoveAllOccurrencesOfASubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.RemoveAllOccurrencesOfASubstring" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemovingStarsFromAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.RemovingStarsFromAString" />
       <module name="ArrayLeetCodeQuestions" />
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveAllOccurrencesOfASubstring" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.MakeArrayStrictlyIncreasing" />
         <item itemvalue="Application.RemovingStarsFromAString" />
         <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
-        <item itemvalue="Application.AddDigits" />
       </list>
     </recent_temporary>
   </component>
@@ -123,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Added the description in the program to Check If Two String Arrays are Equivalent.">
-      <created>1678428394088</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1678428394088</updated>
     </task>
     <task id="LOCAL-00046" summary="Added the description in the program to Check If Two String Arrays are Equivalent.">
       <created>1678428408067</created>
@@ -467,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682846740595</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="[Optimized the result]: Have implemented the program to find the complete arranging coins.">
+      <created>1682846974016</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1682846974016</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implemented the program to delete columns to make sorted." />
     <MESSAGE value="Changed the display result string." />
     <MESSAGE value="Have implemented program to count prefixes of a given string." />
     <MESSAGE value="Have added the program to find the distinct unique character from the array." />
@@ -507,7 +507,8 @@
     <MESSAGE value="Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
     <MESSAGE value="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
     <MESSAGE value="Have implemented the program to find the complete arranging coins." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the complete arranging coins." />
+    <MESSAGE value="[Optimized the result]: Have implemented the program to find the complete arranging coins." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Optimized the result]: Have implemented the program to find the complete arranging coins." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,7 +549,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/raj/ArrangingCoins.java</url>
-          <line>27</line>
+          <line>28</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
