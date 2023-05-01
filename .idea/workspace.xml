@@ -124,13 +124,6 @@
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
     </task>
-    <task id="LOCAL-00048" summary="Use of 2 append method instead of contact, in program to truncate sentence.">
-      <created>1678429586814</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1678429586814</updated>
-    </task>
     <task id="LOCAL-00049" summary="Removed the extra space at the end of the string, in program to truncate sentence.">
       <created>1678430072346</created>
       <option name="number" value="00049" />
@@ -467,7 +460,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682924799105</updated>
     </task>
-    <option name="localTasksCounter" value="97" />
+    <task id="LOCAL-00097" summary="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:.">
+      <created>1682925297249</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1682925297249</updated>
+    </task>
+    <option name="localTasksCounter" value="98" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

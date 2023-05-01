@@ -7,8 +7,8 @@ package com.raj;
 public class RemoveAllOccurrencesOfASubstring {
     public static void main(String[] args) {
         // Initialization.
-        String s = "daabcbaabcbc";
-        String part = "abc";
+        String s = "kirkirkirpgpgpkirpgkirkirpgkirpgkikikirpgrpgrkirpkirpgkirpggpgpkikirpgrkirkirpgpgpggkikirpgrpggkirpgbkirpgthytpyimz";
+        String part = "kirpg";
         StringBuilder ans = new StringBuilder(s);
 
         // Logic.
@@ -25,6 +25,8 @@ public class RemoveAllOccurrencesOfASubstring {
                 s.delete(i, i + part.length());
                 if (i - part.length() > 0) {
                     startIndex = i - part.length();
+                } else {
+                    startIndex = 0;
                 }
                 recursiveStringReplace(s, part, startIndex);
             }
