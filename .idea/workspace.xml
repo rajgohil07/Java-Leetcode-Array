@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/AverageSalaryExcludingTheMinimumAndMaximumSalary.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +40,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbers">
+  <component name="RunManager" selected="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary">
     <configuration name="ArrangingCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.ArrangingCoins" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AverageSalaryExcludingTheMinimumAndMaximumSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.AverageSalaryExcludingTheMinimumAndMaximumSalary" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -93,26 +106,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemovingStarsFromAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.RemovingStarsFromAString" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary" />
         <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbers" />
         <item itemvalue="Application.RemoveAllOccurrencesOfASubstring" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.MakeArrayStrictlyIncreasing" />
-        <item itemvalue="Application.RemovingStarsFromAString" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Have implemented the program to Find First Palindromic String in the Array.">
-      <created>1678456237412</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1678456237412</updated>
     </task>
     <task id="LOCAL-00055" summary="Have implemented the program to find number of strings in words that contain pref as a prefix.">
       <created>1678691438762</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682927823810</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n.">
+      <created>1682928385759</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1682928385759</updated>
+    </task>
+    <option name="localTasksCounter" value="104" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Program to find the shortest distance to a character." />
     <MESSAGE value="Program to the find Keyboard Row." />
     <MESSAGE value="Have added the program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
@@ -508,7 +507,8 @@
     <MESSAGE value="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
     <MESSAGE value="[Terminated the for loop for optimization]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
     <MESSAGE value="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
+    <MESSAGE value="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
