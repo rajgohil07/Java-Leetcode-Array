@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/PartitioningIntoMinimumNumberOfDeciBinaryNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
@@ -39,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RemoveAllOccurrencesOfASubstring">
+  <component name="RunManager" selected="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbers">
     <configuration name="ArrangingCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.ArrangingCoins" />
       <module name="ArrayLeetCodeQuestions" />
@@ -66,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumAddToMakeParenthesesValid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.MinimumAddToMakeParenthesesValid" />
+    <configuration name="PartitioningIntoMinimumNumberOfDeciBinaryNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.PartitioningIntoMinimumNumberOfDeciBinaryNumbers" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -107,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbers" />
         <item itemvalue="Application.RemoveAllOccurrencesOfASubstring" />
         <item itemvalue="Application.ArrangingCoins" />
         <item itemvalue="Application.MakeArrayStrictlyIncreasing" />
         <item itemvalue="Application.RemovingStarsFromAString" />
-        <item itemvalue="Application.MinimumAddToMakeParenthesesValid" />
       </list>
     </recent_temporary>
   </component>
@@ -123,27 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Use of enhanced foreach loop for the program to display count the number of consistent strings.">
-      <created>1678435875668</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1678435875668</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Implemented the program to sort the person array with its height in the descending order.">
-      <created>1678454823570</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1678454823570</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Have added the leetcode description for the Sort the People problem.">
-      <created>1678455169609</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1678455169609</updated>
     </task>
     <task id="LOCAL-00054" summary="Have implemented the program to Find First Palindromic String in the Array.">
       <created>1678456237412</created>
@@ -467,7 +447,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682925854315</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
+      <created>1682926517078</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1682926517078</updated>
+    </task>
+    <task id="LOCAL-00101" summary="[Terminated the for loop for optimization]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
+      <created>1682926558704</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1682926558704</updated>
+    </task>
+    <task id="LOCAL-00102" summary="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring.">
+      <created>1682927823810</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1682927823810</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -482,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changes in logs to find the distinct unique character from the array." />
-    <MESSAGE value="Fix the various issues with the code to find the distinct unique character from the array." />
     <MESSAGE value="Program to find the shortest distance to a character." />
     <MESSAGE value="Program to the find Keyboard Row." />
     <MESSAGE value="Have added the program to Find Words That Can Be Formed by Characters." />
@@ -507,7 +506,9 @@
     <MESSAGE value="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
     <MESSAGE value="[Fixed the invalid string]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
     <MESSAGE value="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Use of Math.max]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
+    <MESSAGE value="[Terminated the for loop for optimization]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
+    <MESSAGE value="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
