@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Optimized the result]: Have implemented the program to find the complete arranging coins.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/RemoveAllOccurrencesOfASubstring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,20 +123,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Added the description in the program to Check If Two String Arrays are Equivalent.">
-      <created>1678428408067</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1678428408067</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Implemented the program to truncate sentence.">
-      <created>1678429518638</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1678429518638</updated>
     </task>
     <task id="LOCAL-00048" summary="Use of 2 append method instead of contact, in program to truncate sentence.">
       <created>1678429586814</created>
@@ -468,7 +453,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682846974016</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="Have implemented the program to find the final string after removing all the occurrences of a substring:.">
+      <created>1682924754293</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1682924754293</updated>
+    </task>
+    <task id="LOCAL-00096" summary="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:.">
+      <created>1682924799105</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1682924799105</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,8 +482,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Changed the display result string." />
-    <MESSAGE value="Have implemented program to count prefixes of a given string." />
     <MESSAGE value="Have added the program to find the distinct unique character from the array." />
     <MESSAGE value="Removed the logs to find the distinct unique character from the array." />
     <MESSAGE value="Changes in logs to find the distinct unique character from the array." />
@@ -508,7 +505,9 @@
     <MESSAGE value="Corrected the invalid answer: Have implemented the program to find whether the array can be made strictly increasing using the values from another array." />
     <MESSAGE value="Have implemented the program to find the complete arranging coins." />
     <MESSAGE value="[Optimized the result]: Have implemented the program to find the complete arranging coins." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Optimized the result]: Have implemented the program to find the complete arranging coins." />
+    <MESSAGE value="Have implemented the program to find the final string after removing all the occurrences of a substring:." />
+    <MESSAGE value="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Optimize the code]: Have implemented the program to find the final string after removing all the occurrences of a substring:." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
