@@ -23,11 +23,7 @@ public class RemoveAllOccurrencesOfASubstring {
         for (int i = startIndex; i <= s.length() - part.length(); i++) {
             if (s.substring(i, i + part.length()).equals(part)) {
                 s.delete(i, i + part.length());
-                if (i - part.length() > 0) {
-                    startIndex = i - part.length();
-                } else {
-                    startIndex = 0;
-                }
+                startIndex = Math.max(i - part.length(), 0);
                 recursiveStringReplace(s, part, startIndex);
             }
         }
