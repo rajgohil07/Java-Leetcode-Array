@@ -15,17 +15,16 @@ public class RemoveAllOccurrencesOfASubstring {
         recursiveStringReplace(ans, part);
 
         // Display the result.
-        System.out.println("The final string after removing all the occurrences of a substring: " + ans+".");
+        System.out.println("The final string after removing all the occurrences of a substring: " + ans + ".");
     }
 
     // Recursive call the function itself to replace the string with the part.
-    private static StringBuilder recursiveStringReplace(StringBuilder s, String part) {
+    private static void recursiveStringReplace(StringBuilder s, String part) {
         for (int i = 0; i <= s.length() - part.length(); i++) {
             if (s.substring(i, i + part.length()).equals(part)) {
-                s = s.delete(i, i + part.length());
+                s.delete(i, i + part.length());
                 recursiveStringReplace(s, part);
             }
         }
-        return s;
     }
 }
