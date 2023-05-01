@@ -33,6 +33,10 @@ public class DailyTemperatures {
         // Logic.
         for (int i = 0; i < temperatures.length; i++) {
             for (int j = i + 1; j < ans.length; j++) {
+                if (i != 0 && temperatures[i] == temperatures[i - 1]) {
+                    ans[i] = Math.max(ans[i - 1] - 1, 0);
+                    break;
+                }
                 if (temperatures[i] < temperatures[j]) {
                     ans[i] = j - i;
                     break;

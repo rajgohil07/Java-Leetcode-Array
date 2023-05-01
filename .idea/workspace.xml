@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/DailyTemperatures.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/DailyTemperatures.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Have implemented the program to find DI string match.">
-      <created>1678692346614</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1678692346614</updated>
     </task>
     <task id="LOCAL-00057" summary="Have made changes to the program to find DI string match.">
       <created>1678692958203</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682928799694</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day.">
+      <created>1682935682871</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1682935682871</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,7 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Have implemented the program to find the last stone weight." />
@@ -508,7 +507,8 @@
     <MESSAGE value="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n." />
     <MESSAGE value="Have implemented the program to find the average salary excluding the minimum and maximum salary." />
     <MESSAGE value="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary." />
+    <MESSAGE value="Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day." />
+    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
