@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/AverageSalaryExcludingTheMinimumAndMaximumSalary.java" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary.">
+      <change afterPath="$PROJECT_DIR$/src/com/raj/DailyTemperatures.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary">
+  <component name="RunManager" selected="Application.DailyTemperatures">
     <configuration name="ArrangingCoins" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.ArrangingCoins" />
       <module name="ArrayLeetCodeQuestions" />
@@ -67,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MakeArrayStrictlyIncreasing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.MakeArrayStrictlyIncreasing" />
+    <configuration name="DailyTemperatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.DailyTemperatures" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -108,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DailyTemperatures" />
         <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary" />
         <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbers" />
         <item itemvalue="Application.RemoveAllOccurrencesOfASubstring" />
         <item itemvalue="Application.ArrangingCoins" />
-        <item itemvalue="Application.MakeArrayStrictlyIncreasing" />
       </list>
     </recent_temporary>
   </component>
@@ -124,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00055" summary="Have implemented the program to find number of strings in words that contain pref as a prefix.">
-      <created>1678691438762</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1678691438763</updated>
     </task>
     <task id="LOCAL-00056" summary="Have implemented the program to find DI string match.">
       <created>1678692346614</created>
@@ -468,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682928385759</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary.">
+      <created>1682928799694</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1682928799694</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -483,8 +483,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Program to the find Keyboard Row." />
-    <MESSAGE value="Have added the program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Have added the leetcode description in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
@@ -508,7 +506,9 @@
     <MESSAGE value="[Terminated the for loop for optimization]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
     <MESSAGE value="[Without for loop]: Have implemented the program to find the final string after removing all the occurrences of a substring." />
     <MESSAGE value="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the minimum number of positive deci-binary numbers needed so that they sum up to n." />
+    <MESSAGE value="Have implemented the program to find the average salary excluding the minimum and maximum salary." />
+    <MESSAGE value="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
