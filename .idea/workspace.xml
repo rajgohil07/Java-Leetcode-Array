@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Code refactor to improve the performance]: Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/CheckIfStringIsAnAcronymOfWords.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to check if string is acronym of words or not.">
+      <change beforePath="$PROJECT_DIR$/src/com/raj/CheckIfStringIsAnAcronymOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/CheckIfStringIsAnAcronymOfWords.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,13 +124,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677686366645</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Have made changes to the program to find DI string match.">
-      <created>1678692958203</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1678692958203</updated>
     </task>
     <task id="LOCAL-00058" summary="Implemented the program to delete columns to make sorted.">
       <created>1678702753318</created>
@@ -469,7 +461,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682935682871</updated>
     </task>
-    <option name="localTasksCounter" value="106" />
+    <task id="LOCAL-00106" summary="Implemented the program to check if string is acronym of words or not.">
+      <created>1693340642149</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1693340642150</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -495,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Use of deleteCharAt in the StringBuilder in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Corrected the invalid logic in the deleteCharAt in the Program to Find Words That Can Be Formed by Characters." />
     <MESSAGE value="Have implemented the program to find the last stone weight." />
     <MESSAGE value="Code correction: Have implemented the program to find the last stone weight." />
@@ -520,7 +518,8 @@
     <MESSAGE value="Have implemented the program to find the average salary excluding the minimum and maximum salary." />
     <MESSAGE value="[Optimized the performance by enhance for loop]: Have implemented the program to find the average salary excluding the minimum and maximum salary." />
     <MESSAGE value="Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day." />
-    <option name="LAST_COMMIT_MESSAGE" value="Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day." />
+    <MESSAGE value="Implemented the program to check if string is acronym of words or not." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the program to check if string is acronym of words or not." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

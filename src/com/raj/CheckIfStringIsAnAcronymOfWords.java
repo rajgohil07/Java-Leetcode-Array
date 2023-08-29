@@ -41,8 +41,8 @@ import java.util.List;
 public class CheckIfStringIsAnAcronymOfWords {
     public static void main(String[] args) {
         // Initialization.
-        List<String> words = new ArrayList<>(Arrays.asList("alice", "bob", "charlie"));
-        String s = "abc";
+        List<String> words = new ArrayList<>(Arrays.asList("afqcpzsx", "icenu"));
+        String s = "yi";
         boolean isValid = false;
 
         // Logic.
@@ -51,8 +51,11 @@ public class CheckIfStringIsAnAcronymOfWords {
                 if (words.get(i).charAt(0) != s.charAt(i)) {
                     break;
                 }
+                if (i == words.size() - 1) {
+                    isValid = true;
+                    break;
+                }
             }
-            isValid = true;
         }
 
         // Display the result.
