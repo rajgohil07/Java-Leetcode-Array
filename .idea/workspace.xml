@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="Implemented the program to check if string is acronym of words or not.">
-      <change beforePath="$PROJECT_DIR$/src/com/raj/CheckIfStringIsAnAcronymOfWords.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/raj/CheckIfStringIsAnAcronymOfWords.java" afterDir="false" />
-    </list>
+    <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Have made changes to correct the test case]: Implemented the program to check if string is acronym of words or not." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
