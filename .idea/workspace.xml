@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d2b9c09-30e2-4b3c-8252-10f494f97b8b" name="Changes" comment="[Code refactor to improve the performance]: Have implemented the program to find the number of days to wait after the ith day to get a warmer temperature then current day.">
-      <change afterPath="$PROJECT_DIR$/src/com/raj/SignOfTheProductOfAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/raj/CheckIfStringIsAnAcronymOfWords.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +41,22 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SignOfTheProductOfAnArray">
+  <component name="RunManager" selected="Application.CheckIfStringIsAnAcronymOfWords">
     <configuration name="AverageSalaryExcludingTheMinimumAndMaximumSalary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.AverageSalaryExcludingTheMinimumAndMaximumSalary" />
+      <module name="ArrayLeetCodeQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.raj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckIfStringIsAnAcronymOfWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.raj.CheckIfStringIsAnAcronymOfWords" />
       <module name="ArrayLeetCodeQuestions" />
       <extension name="coverage">
         <pattern>
@@ -80,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllOccurrencesOfASubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.raj.RemoveAllOccurrencesOfASubstring" />
-      <module name="ArrayLeetCodeQuestions" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.raj.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SignOfTheProductOfAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.raj.SignOfTheProductOfAnArray" />
       <module name="ArrayLeetCodeQuestions" />
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CheckIfStringIsAnAcronymOfWords" />
         <item itemvalue="Application.SignOfTheProductOfAnArray" />
         <item itemvalue="Application.DailyTemperatures" />
         <item itemvalue="Application.AverageSalaryExcludingTheMinimumAndMaximumSalary" />
         <item itemvalue="Application.PartitioningIntoMinimumNumberOfDeciBinaryNumbers" />
-        <item itemvalue="Application.RemoveAllOccurrencesOfASubstring" />
       </list>
     </recent_temporary>
   </component>
