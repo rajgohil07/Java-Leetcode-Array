@@ -41,5 +41,41 @@ words[i] contains only lowercase English letters.
 package com.raj;
 
 public class FindMaximumNumberOfStringPairs {
+    public static void main(String[] args) {
+        // Initialization.
+        String[] words = {"cd", "ac", "dc", "ca", "zz"};
+        int count = 0;
 
+        // Logic.
+        outerLoop:
+        for (int i = 0; i < words.length - 1; i++) {
+            String reverseString = getReverseString(words[i]);
+            for (int j = i + 1; j < words.length; j++) {
+                if (reverseString.equals(words[j])) {
+                    count++;
+                    continue outerLoop;
+                }
+            }
+        }
+
+        // Display the result.
+        System.out.println("The maximum numbers of string pairs are: " + count);
+    }
+
+    private static String getReverseString(String s) {
+        StringBuilder str = new StringBuilder(s);
+
+        int start = 0;
+        int end = str.length() - 1;
+
+        while (start < end) {
+            char tmp = str.charAt(start);
+            str.setCharAt(start, str.charAt(end));
+            str.setCharAt(end, tmp);
+            start++;
+            end--;
+        }
+
+        return str.toString();
+    }
 }
